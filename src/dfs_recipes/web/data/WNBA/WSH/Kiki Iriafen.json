@@ -1,0 +1,642 @@
+{
+  "columnDefs": [
+    {
+      "field": "PLAYER",
+      "width": 120,
+      "pinned": "left",
+      "lockPinned": true
+    },
+    {
+      "field": "SZN",
+      "minWidth": 80
+    },
+    {
+      "field": "DATE",
+      "minWidth": 100
+    },
+    {
+      "field": "TEAM",
+      "width": 30
+    },
+    {
+      "field": "HA",
+      "width": 20
+    },
+    {
+      "field": "OPP",
+      "width": 40
+    },
+    {
+      "field": "RES",
+      "width": 10
+    },
+    {
+      "field": "TSC",
+      "type": "numericColumn"
+    },
+    {
+      "field": "OSC",
+      "type": "numericColumn"
+    },
+    {
+      "field": "DIFF",
+      "type": "numericColumn"
+    },
+    {
+      "field": "OT",
+      "width": 0
+    },
+    {
+      "field": "MIN",
+      "type": "numericColumn"
+    },
+    {
+      "field": "PRA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PTS",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FGM",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FGA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "3PM",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "3PA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "AST",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "REB",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "RA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PR",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FPTS",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "BLK",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "STL",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "BS",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PF",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "TO",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FTM",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FTA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FG%",
+      "type": "numericColumn"
+    },
+    {
+      "field": "3P%",
+      "type": "numericColumn"
+    },
+    {
+      "field": "FT%",
+      "type": "numericColumn"
+    }
+  ],
+  "rowData": [
+    {
+      "level_0": 0,
+      "index": 0,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-05",
+      "TEAM": "WSH",
+      "HA": "vs",
+      "OPP": "NY",
+      "RES": "L",
+      "TSC": 78,
+      "OSC": 86,
+      "DIFF": 8,
+      "OT": "",
+      "MIN": 18,
+      "PRA": 27,
+      "PTS": 17,
+      "FGM": 6,
+      "FGA": 13,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 1,
+      "REB": 9,
+      "RA": 10,
+      "PA": 18,
+      "PR": 26,
+      "FPTS": 29.3,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 5,
+      "TO": 0,
+      "FTM": 5,
+      "FTA": 6,
+      "FG%": 46.2,
+      "3P%": 0.0,
+      "FT%": 83.3
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-03",
+      "TEAM": "WSH",
+      "HA": "@",
+      "OPP": "IND",
+      "RES": "L",
+      "TSC": 76,
+      "OSC": 85,
+      "DIFF": 9,
+      "OT": "",
+      "MIN": 27,
+      "PRA": 29,
+      "PTS": 20,
+      "FGM": 9,
+      "FGA": 11,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 0,
+      "REB": 9,
+      "RA": 9,
+      "PA": 20,
+      "PR": 29,
+      "FPTS": 27.8,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 3,
+      "TO": 3,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 81.8,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-30",
+      "TEAM": "WSH",
+      "HA": "vs",
+      "OPP": "NY",
+      "RES": "L",
+      "TSC": 63,
+      "OSC": 85,
+      "DIFF": 22,
+      "OT": "",
+      "MIN": 25,
+      "PRA": 21,
+      "PTS": 12,
+      "FGM": 4,
+      "FGA": 14,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 2,
+      "REB": 7,
+      "RA": 9,
+      "PA": 14,
+      "PR": 19,
+      "FPTS": 27.4,
+      "BLK": 0,
+      "STL": 2,
+      "BS": 2,
+      "PF": 0,
+      "TO": 2,
+      "FTM": 4,
+      "FTA": 4,
+      "FG%": 28.6,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-28",
+      "TEAM": "WSH",
+      "HA": "vs",
+      "OPP": "IND",
+      "RES": "W",
+      "TSC": 83,
+      "OSC": 77,
+      "DIFF": 6,
+      "OT": "",
+      "MIN": 23,
+      "PRA": 25,
+      "PTS": 16,
+      "FGM": 7,
+      "FGA": 13,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 1,
+      "REB": 8,
+      "RA": 9,
+      "PA": 17,
+      "PR": 24,
+      "FPTS": 28.1,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 4,
+      "TO": 2,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 53.8,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 4,
+      "index": 4,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-25",
+      "TEAM": "WSH",
+      "HA": "@",
+      "OPP": "PHX",
+      "RES": "L",
+      "TSC": 62,
+      "OSC": 68,
+      "DIFF": 6,
+      "OT": "",
+      "MIN": 26,
+      "PRA": 24,
+      "PTS": 11,
+      "FGM": 3,
+      "FGA": 4,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 0,
+      "REB": 13,
+      "RA": 13,
+      "PA": 11,
+      "PR": 24,
+      "FPTS": 19.6,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 3,
+      "TO": 7,
+      "FTM": 5,
+      "FTA": 6,
+      "FG%": 75.0,
+      "3P%": 0.0,
+      "FT%": 83.3
+    },
+    {
+      "level_0": 5,
+      "index": 5,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-23",
+      "TEAM": "WSH",
+      "HA": "@",
+      "OPP": "LV",
+      "RES": "L",
+      "TSC": 72,
+      "OSC": 75,
+      "DIFF": 3,
+      "OT": "",
+      "MIN": 35,
+      "PRA": 32,
+      "PTS": 17,
+      "FGM": 6,
+      "FGA": 14,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 2,
+      "REB": 13,
+      "RA": 15,
+      "PA": 19,
+      "PR": 30,
+      "FPTS": 34.6,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 1,
+      "TO": 1,
+      "FTM": 5,
+      "FTA": 6,
+      "FG%": 42.9,
+      "3P%": 0.0,
+      "FT%": 83.3
+    },
+    {
+      "level_0": 6,
+      "index": 6,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-21",
+      "TEAM": "WSH",
+      "HA": "@",
+      "OPP": "GS",
+      "RES": "L",
+      "TSC": 74,
+      "OSC": 76,
+      "DIFF": 2,
+      "OT": "",
+      "MIN": 31,
+      "PRA": 22,
+      "PTS": 10,
+      "FGM": 5,
+      "FGA": 11,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 0,
+      "REB": 12,
+      "RA": 12,
+      "PA": 10,
+      "PR": 22,
+      "FPTS": 24.4,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 2,
+      "TO": 0,
+      "FTM": 0,
+      "FTA": 0,
+      "FG%": 45.5,
+      "3P%": 0.0,
+      "FT%": 0.0
+    },
+    {
+      "level_0": 7,
+      "index": 7,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-18",
+      "TEAM": "WSH",
+      "HA": "@",
+      "OPP": "CONN",
+      "RES": "W",
+      "TSC": 90,
+      "OSC": 85,
+      "DIFF": 5,
+      "OT": "",
+      "MIN": 31,
+      "PRA": 31,
+      "PTS": 17,
+      "FGM": 7,
+      "FGA": 10,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 0,
+      "REB": 14,
+      "RA": 14,
+      "PA": 17,
+      "PR": 31,
+      "FPTS": 33.8,
+      "BLK": 1,
+      "STL": 0,
+      "BS": 1,
+      "PF": 5,
+      "TO": 3,
+      "FTM": 3,
+      "FTA": 4,
+      "FG%": 70.0,
+      "3P%": 0.0,
+      "FT%": 75.0
+    },
+    {
+      "level_0": 8,
+      "index": 8,
+      "PLAYER": "Kiki Iriafen",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-16",
+      "TEAM": "WSH",
+      "HA": "vs",
+      "OPP": "ATL",
+      "RES": "W",
+      "TSC": 94,
+      "OSC": 90,
+      "DIFF": 4,
+      "OT": "",
+      "MIN": 28,
+      "PRA": 20,
+      "PTS": 14,
+      "FGM": 4,
+      "FGA": 10,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 2,
+      "REB": 4,
+      "RA": 6,
+      "PA": 16,
+      "PR": 18,
+      "FPTS": 21.8,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 6,
+      "TO": 0,
+      "FTM": 6,
+      "FTA": 8,
+      "FG%": 40.0,
+      "3P%": 0.0,
+      "FT%": 75.0
+    }
+  ],
+  "pinnedTopRowData": [
+    {
+      "PRA": 23.5,
+      "PR": 21.5,
+      "PTS": 13.5,
+      "FPTS": 26.55,
+      "PLAYER": "LINE"
+    },
+    {
+      "PLAYER": "HIT RATE (%)",
+      "PRA": 66,
+      "PR": 77,
+      "PTS": 66,
+      "FPTS": 66
+    },
+    {
+      "PLAYER": "AVG",
+      "PRA": 25.7,
+      "PR": 24.8,
+      "PTS": 14.9,
+      "FPTS": 27.4
+    }
+  ]
+}
