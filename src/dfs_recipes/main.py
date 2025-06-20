@@ -3,9 +3,7 @@ import asyncio
 import logging
 from contextlib import asynccontextmanager
 from pathlib import Path
-from dfs_recipes import config
-from dfs_recipes.config.constants import DFS_SESSION
-from dfs_recipes.config.rate_limiter import limiter
+from dfs_recipes.config import settings, limiter
 from dfs_recipes.database.checkpoints import db_client
 from dfs_recipes.api import health, charts, history, auth
 from fastapi import FastAPI
@@ -40,8 +38,8 @@ app = FastAPI(
     middleware=[
         Middleware(
             SessionMiddleware,
-            secret_key=os.environ['SESSION_ENCRYPTION_KEY'],
-            session_cookie=DFS_SESSION,
+            secret_key=settings.session_encryption_key,
+            session_cookie=settings.session_cookie_key,
             max_age=86400,
             path='/api',
             same_site='none',

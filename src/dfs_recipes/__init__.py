@@ -1,8 +1,5 @@
 import os
 import logging
-import dotenv
-
-dotenv.load_dotenv()
 
 log_level = os.getenv('LOG_LEVEL', 'INFO').upper()
 log_level = getattr(logging, log_level, logging.INFO)

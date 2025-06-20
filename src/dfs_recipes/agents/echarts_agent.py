@@ -1,4 +1,3 @@
-import os
 import logging
 import json
 import uuid
@@ -15,10 +14,11 @@ from langgraph.graph import StateGraph, END, START
 from dfs_recipes.database.checkpoints import db_client
 from dfs_recipes.models import AgentState, ChartRequest, ChartResponse
 from dfs_recipes.utils import data_utils
+from dfs_recipes.config.settings import settings
 
 log = logging.getLogger(__name__)
 
-model = os.getenv('GEMINI_MODEL', 'gemini-2.5-pro-preview-06-05')
+model = settings.gemini_model
 
 prompt_template = """\
 You are an Apache Echarts expert.
@@ -64,7 +64,7 @@ llm = ChatGoogleGenerativeAI(
     model=model,
     temperature=0,
     max_retries=2,
-    google_api_key=os.environ['GEMINI_API_KEY'],
+    google_api_key=settings.gemini_api_key,
 )
 
 chain = prompt | llm.with_structured_output(schema=ChartResponse)

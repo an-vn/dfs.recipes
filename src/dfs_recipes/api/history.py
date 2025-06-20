@@ -1,4 +1,3 @@
-import os
 import logging
 import json
 import uuid
@@ -7,7 +6,6 @@ from pathlib import Path
 from collections.abc import AsyncIterable
 from fastapi import APIRouter, Request, Response, BackgroundTasks, Cookie
 from fastapi.responses import StreamingResponse
-from dfs_recipes.config.constants import DFS_SESSION
 from dfs_recipes.database.checkpoints import db_client
 from dfs_recipes.models import MessageRequest
 from dfs_recipes.agents import echarts_agent

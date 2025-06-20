@@ -16,6 +16,10 @@ class LLMConfig(BaseModel):
 class Settings(BaseSettings):
     app_name: str = 'DFS Recipes'
     domains: set[str] = set()
+    gemini_api_key: str = Field(default='')
+    gemini_model: str = Field(default='gemini-2.0-flash-001')
+    session_encryption_key: str = Field(default='')
+    session_cookie_key: str = Field(default='DFS_SESSION')
 
     model_config = SettingsConfigDict(
         env_file=('.env', '.env.prod'),
@@ -30,5 +34,3 @@ class Settings(BaseSettings):
 
 
 settings = Settings()
-
-print(settings.model_dump())
