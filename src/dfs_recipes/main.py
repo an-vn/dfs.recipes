@@ -16,7 +16,6 @@ from fastapi.staticfiles import StaticFiles
 from slowapi import _rate_limit_exceeded_handler
 from slowapi.middleware import SlowAPIMiddleware
 from slowapi.errors import RateLimitExceeded
-import secrets
 
 log = logging.getLogger(__name__)
 
@@ -28,8 +27,8 @@ async def lifespan(app: FastAPI):
     app.include_router(health.router, prefix='/api', tags=['Health'])
     app.include_router(charts.router, prefix='/api', tags=['Charts'])
     app.include_router(history.router, prefix='/api', tags=['History'])
-    _web_dir = Path(__file__).parent / 'web'
-    app.mount('/', StaticFiles(directory=_web_dir, html=True), name='web')
+    _static_dir = Path(__file__).parent / 'static'
+    app.mount('/', StaticFiles(directory=_static_dir, html=True), name='static')
     yield
 
 

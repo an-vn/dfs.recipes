@@ -1,11 +1,10 @@
 [project]
-name = "dfs.recipes"
+name = "dfs-recipes"
 version = "0.1.0"
 description = "Daily Fantasy Sports (DFS) Recipes"
 authors = [{ name = "Anthony Nguyen", email = "anthony.nguyen636@gmail.com" }]
 readme = "README.md"
-
-requires-python = ">=3.12,<4.0.0"
+requires-python = ">=3.12"
 dependencies = [
     "python-dotenv (>=1.1.0,<2.0.0)",
     "pandas (>=2.3.0,<3.0.0)",
@@ -26,12 +25,16 @@ dependencies = [
     "itsdangerous (>=2.2.0,<3.0.0)",
     "requests (>=2.32.4,<3.0.0)",
     "slowapi (>=0.1.9,<0.2.0)",
-    "slimit (>=0.8.1,<0.9.0)"
+    "slimit (>=0.8.1,<0.9.0)",
+    "pydantic-settings (>=2.9.1,<3.0.0)"
 ]
 
 [project.urls]
 repository = "https://github.com/an-vn/dfs.recipes"
 
+[project.scripts]
+dfs-recipes = "dfs_recipes:main"
+
 [build-system]
-requires = ["poetry-core>=2.0.0,<3.0.0"]
-build-backend = "poetry.core.masonry.api"
+requires = ["hatchling"]
+build-backend = "hatchling.build"
