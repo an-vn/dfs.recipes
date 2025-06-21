@@ -1,35 +1,47 @@
 services:
-#  backend:
-#    build: .
-#    ports:
-#      - "8000:8000"
-#    environment:
-#      - UVICORN_RELOAD=true
-#    volumes:
-#      - .:/app
-#    tty: true
   app:
-    # Build the image from the Dockerfile in the current directory
     build: .
-
-    container_name: dfs_recipes
-    # Host the FastAPI application on port 8000
+    container_name: dfs-recipes
     ports:
-      - "8000:8000"
-
+      - "${APP_PORT:-8000}:8000"
+    volumes:
+      - ${DATASETS_PATH:-./datasets}:/datasets
+    environment:
+      - ENV=development
+    #    command: >
+    #      sh -c "
+    #        if [ '$${ENV}' = 'development' ]; then
+    #          uvicorn dfs_recipes.main:app --host 0.0.0.0 --port 8000 --reload
+    #        else
+    #          gunicorn dfs_recipes.main:app -w 4 -k uvicorn.workers.UvicornWorker --bind 0.0.0.0:8000
+    #        fi
+    #      "
+    networks:
+      - app-network
     develop:
-      # Create a `watch` configuration to update the app
-      # https://docs.docker.com/compose/file-watch/#compose-watch-versus-bind-mounts
       watch:
-        # Sync the working directory with the `/app` directory in the container
         - action: sync
           path: .
           target: /app
-          # Exclude the project virtual environment — it could be for a
-          # different platform in the container
           ignore:
             - .venv/
-
-        # Rebuild the image if dependencies change by checking uv.lock
         - action: rebuild
           path: ./uv.lock
+  nginx:
+    image: nginx:alpine
+    container_name: nginx-proxy
+    restart: unless-stopped
+    ports:
+      - "${NGINX_PORT:-8080}:80"
+      - "443:443"
+    volumes:
+      - ./web/nginx/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./web/dist:/usr/share/nginx/html:ro
+    depends_on:
+      - app
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge

@@ -2,7 +2,9 @@
 name = "dfs-recipes"
 version = "0.1.0"
 description = "Daily Fantasy Sports (DFS) Recipes"
-authors = [{ name = "Anthony Nguyen", email = "anthony.nguyen636@gmail.com" }]
+authors = [
+    { name = "Anthony Nguyen", email = "anthony.nguyen636@gmail.com" }
+]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [

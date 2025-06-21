@@ -35,49 +35,31 @@ radioButtons.forEach(radio => {
     });
 });
 
-let lastActiveContainer = 'lines';
-let hasChart = false;
+let lastActive = 'lines';
 
 for (const [key, container] of Object.entries(containers)) {
-    if (key === 'lines') {
-        continue;
-    }
     container.addEventListener('click', function (e) {
-        // FIXME
-        navigation.notify(key);
+
+        let inline = 'center';
+
+        switch (key) {
+            case 'lines':
+                inline = 'start';
+                break;
+            case 'chart':
+            case 'llmOutput':
+                inline = 'end';
+                break;
+        }
+
         container.scrollIntoView({
             behavior: 'smooth',
             block: 'center',
-            inline: 'center',
+            inline,
         });
 
-        return;
-
-        console.log({ lastActiveContainer, key, hasChart });
-
-        if (!hasChart && key === 'chart') {
-            hasChart = true;
-        }
-
-        if (lastActiveContainer === 'chart' && key === 'data') {
-            LinesContainer.scrollIntoView({
-                behavior: 'smooth',
-                block: 'center',
-                inline: 'start',
-            });
-        } else if (lastActiveContainer === 'data' && key === 'data') {
-
-        } else if (lastActiveContainer === 'lines' && key === 'data') {
-
-        } else if (hasChart && key === 'data') {
-            navigation.notify(key);
-            container.scrollIntoView({
-                behavior: 'smooth',
-                block: 'center',
-                inline: 'center',
-            });
-        }
-        lastActiveContainer = key;
+        // navigation.notify(key);
+        lastActive = key;
     });
 }
 

@@ -25,8 +25,7 @@ async def lifespan(app: FastAPI):
     app.include_router(health.router, prefix='/api', tags=['Health'])
     app.include_router(charts.router, prefix='/api', tags=['Charts'])
     app.include_router(history.router, prefix='/api', tags=['History'])
-    _static_dir = Path(__file__).parent / 'static'
-    app.mount('/', StaticFiles(directory=_static_dir, html=True), name='static')
+    # app.mount('/', StaticFiles(directory=_static_dir, html=True), name='static')
     yield
 
 

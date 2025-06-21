@@ -20,7 +20,6 @@ import { Lines } from './modules/lines.js';
 import { Data } from './modules/Data.js';
 import { Chart } from './modules/chart.js';
 import { Message } from './modules/message.js';
-import { spawnSandboxWorker } from './modules/sandbox';
 
 ModuleRegistry.registerModules([AllCommunityModule]);
 

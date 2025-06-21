@@ -35,13 +35,6 @@ export class Lines {
         this.loadTable(LEAGUE, TEAM, PLAYER)
             .then((res) => {
                 this.data.setTableData(res);
-                this.data.container.scrollIntoView({
-                    behavior: 'smooth',
-                    block: 'center',
-                    inline: 'nearest'
-                });
-                // document.querySelector('input[name="active-window"][value="data"]').checked = true;
-                this.handleNotify('data');
             });
     }
 
@@ -67,13 +60,5 @@ export class Lines {
             });
     }
 
-    handleNotify(data) {
-        if (data === 'lines') {
-            this.container.classList.remove('inactive');
-            // this.data.container.classList.add('inactive');
-        } else {
-            this.container.classList.add('inactive');
-            // this.data.container.classList.remove('inactive');
-        }
-    }
+    handleNotify(data) {}
 }
