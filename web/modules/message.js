@@ -10,12 +10,7 @@ export class Message {
     }
 
     toggle() {
-        this.container.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center',
-            inline: 'nearest'
-        });
-        document.querySelector('input[name="active-window"][value="message"]').checked = true;
+        this.container.click();
     }
 
     async handleKeyDown(e) {
@@ -34,10 +29,15 @@ export class Message {
         }
     }
 
-    async send() {
+    async send(e) {
+        // e.preventDefault();
+        // e.stopPropagation();
+
         if (!this.messageInput.value.trim()) {
             return;
         }
+
+        this.chart.llmOutputContainer.click();
 
         this.chart.createChart(this.messageInput.value, this.data.getRowData())
             .then(() => {

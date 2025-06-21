@@ -45,19 +45,12 @@ document.addEventListener('DOMContentLoaded', async function () {
     }
 
     await fetch('/api/session').then((res) => {
-        console.log(res);
     });
 
     const chart = new Chart(ChartContainer, LLMOutputContainer);
     const data = new Data(DataContainer);
     const lines = new Lines(LinesContainer, data);
     const message = new Message(MessageContainer, data, chart);
-
-    LinesContainer.scrollIntoView({
-        behavior: 'smooth',
-        block: 'center',
-        inline: 'nearest'
-    });
 
     navigation.subscribe(lines);
     navigation.subscribe(data);
@@ -71,4 +64,10 @@ setTimeout(() => {
     overlay.style.opacity = '0';
     overlay.style.visibility = 'hidden';
     overlay.style.zIndex = '-1';
+
+    LinesContainer.scrollIntoView({
+        behavior: 'smooth',
+        block: 'center',
+        inline: 'start'
+    });
 }, 100);

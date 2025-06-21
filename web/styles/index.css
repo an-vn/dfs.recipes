@@ -90,98 +90,101 @@ main {
 }
 
 .grid {
-    /*position: relative;*/
-    /*top: var(--header-height);*/
-    /*right: 20px;*/
-    /*margin-right: 20px;*/
     display: grid;
     grid-row: 1 / span 2;
     grid-template-columns: 300px 80vw 60vw;
-    /*grid-template-columns:  1fr 4fr 60vw;*/
-    /*grid-template-rows: 80vh calc(20vw - var(--theme-padding));*/
-    grid-template-rows: 80vh 1fr;
-    gap: var(--theme-padding);
+    /*grid-template-rows: 80vh 1fr;*/
+    grid-template-rows: 80vh minmax(0, 1fr);
+    /*gap: var(--theme-padding);*/
     section {
         width: 100%;
-        transition: all 0.5s;
         overflow: auto;
         scroll-margin-top: var(--header-height);
     }
-    align-items: stretch; /* Stretches items vertically within their cell */
-    justify-items: stretch; /* Stretches items horizontally within their cell */
-    /*@media (max-width: 575px) {*/
-    /*    grid-template-columns: 1fr;*/
-    /*    grid-template-rows: 80vh 80vh 20vh 80vh 80vh;*/
-    /*}*/
+    transition: all 1s;
 }
 
 #LinesContainer {
+    scroll-padding-left: var(--theme-padding);
+    padding: var(--theme-padding);
     grid-row-start: 1;
     grid-row-end: 3;
-    scroll-margin-left: var(--theme-padding);
-}
-#LinesContainer.inactive {
-    width: calc(20vw - var(--theme-padding));
-    justify-self: end;
 }
 
+/*#LinesContainer.inactive {*/
+/*    width: calc(20vw - var(--theme-padding));*/
+/*    justify-self: end;*/
+/*}*/
+
 #DataContainer {
-}
-#DataContainer.inactive {
-    width: calc(20vw - var(--theme-padding));
-    justify-self: start;
+    padding: var(--theme-padding);
 }
 
 #MessageContainer {
-    border: 1px solid color-mix(in srgb, transparent, #181d1f 20%);
-    border-radius: 2px;
     padding: var(--theme-padding);
-    display: flex;
-    flex-direction: column;
-    gap: var(--theme-padding);
-    textarea {
-        resize: none;
-        width: 100%;
-        border: 1px solid #e4e7ec;
-        border-radius: 1px;
-        background-color: #f9fafb;
-        outline: none;
-        padding: 4px 6px;
-        overflow: auto;
-    }
-    button {
-        align-self: flex-end;
-        width: 120px;
-        padding: 4px;
-        border: none;
-        border-radius: var(--btn-radius);
-        background-color: var(--brand);
-        color: var(--brand-text);
-        cursor: pointer;
-        transition: background-color 0.3s;
+    /*gap: var(--theme-padding);*/
+    div {
+        border: 1px solid color-mix(in srgb, transparent, #181d1f 20%);
+        border-radius: 2px;
+        padding: var(--theme-padding);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: var(--theme-padding);
+        height: 100%;
+        textarea {
+            resize: none;
+            width: 100%;
+            height: 100%;
+            border: 1px solid #e4e7ec;
+            border-radius: 1px;
+            background-color: #f9fafb;
+            outline: none;
+            padding: 4px 6px;
+            overflow: auto;
+        }
+        button {
+            align-self: flex-end;
+            width: 120px;
+            padding: 4px;
+            border: none;
+            border-radius: var(--btn-radius);
+            background-color: var(--brand);
+            color: var(--brand-text);
+            cursor: pointer;
+            transition: background-color 0.3s;
 
-        &:hover {
-            background-color: #455a64;
+            &:hover {
+                background-color: #455a64;
+            }
         }
     }
 }
 
 #ChartContainer {
-    border: 1px solid color-mix(in srgb, transparent, #181d1f 20%);
-    border-radius: 2px;
     padding: var(--theme-padding);
     scroll-margin-right: var(--theme-padding);
-}
-#LLMOutputContainer {
-    border: 1px solid color-mix(in srgb, transparent, #181d1f 20%);
-    border-radius: 2px;
-    padding: var(--theme-padding);
-    scroll-margin-right: var(--theme-padding);
+    .chart {
+        border: 1px solid color-mix(in srgb, transparent, #181d1f 20%);
+        border-radius: 2px;
+        padding: var(--theme-padding);
+        height: 100%;
+        width: 100%;
+    }
 }
 
-.chart {
-    height: 100%;
-    width: 100%;
+#LLMOutputContainer {
+    padding: var(--theme-padding);
+    scroll-margin-right: var(--theme-padding);
+    .llm-output {
+        border: 1px solid color-mix(in srgb, transparent, #181d1f 20%);
+        border-radius: 2px;
+        padding: var(--theme-padding);
+        display: flex;
+        flex-direction: column;
+        gap: var(--theme-padding);
+        height: 100%;
+    }
 }
 
 .ag-theme-balham {

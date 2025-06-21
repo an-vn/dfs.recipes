@@ -2,6 +2,7 @@ import { Observable } from './observable.js';
 
 const header = document.querySelector('#header');
 const footer = document.querySelector('footer');
+const grid = document.querySelector('.grid');
 
 const LinesContainer = document.querySelector('#LinesContainer');
 const DataContainer = document.querySelector('#DataContainer');
@@ -36,19 +37,32 @@ radioButtons.forEach(radio => {
 });
 
 let lastActive = 'lines';
+let hasChart = false;
 
 for (const [key, container] of Object.entries(containers)) {
     container.addEventListener('click', function (e) {
+        // console.log('Clicked on:', key);
+        // e.preventDefault();
+        // e.stopPropagation();
 
         let inline = 'center';
+
+        // console.log({lastActive, hasChart, key});
 
         switch (key) {
             case 'lines':
                 inline = 'start';
                 break;
+            case 'data':
+            case 'message':
+                inline = hasChart ? 'center' : 'nearest';
+                grid.style.gridTemplateColumns = '300px 80vw 60vw';
+                break;
             case 'chart':
             case 'llmOutput':
                 inline = 'end';
+                hasChart = true;
+                grid.style.gridTemplateColumns = '300px 40vw 60vw';
                 break;
         }
 

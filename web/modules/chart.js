@@ -3,9 +3,9 @@ import 'echarts-gl';
 import { spawnSandboxWorker } from './sandbox';
 
 export class Chart {
-    constructor(container, llmOutput) {
+    constructor(container, llmOutputContainer) {
         this.container = container;
-        this.llmOutput = llmOutput;
+        this.llmOutputContainer = llmOutputContainer;
         this.eChartsInstance = null;
         this.initChartInstance();
         window.onresize = this.handleResize.bind(this);
@@ -14,7 +14,7 @@ export class Chart {
             fontSize: 13,
         };
 
-        // this.chartError = document.querySelector('.chart-error');
+        this.llmOutput = llmOutputContainer.querySelector('.llm-output');
     }
 
     initChartInstance() {
@@ -23,7 +23,7 @@ export class Chart {
             chartElement.classList.add('chart');
             this.container.appendChild(chartElement);
 
-            this.eChartsInstance = echarts.init(chartElement, 'vintage', {
+            this.eChartsInstance = echarts.init(chartElement, '', {
                 useDirtyRect: true,
             });
         }
@@ -37,13 +37,9 @@ export class Chart {
 
     async createChart(message, dataset) {
         this.llmOutput.innerHTML = '';
+
         this.eChartsInstance.clear();
         this.eChartsInstance.showLoading(this.loadingParams);
-        this.llmOutput.scrollIntoView({
-            behavior: 'smooth',
-            block: 'center',
-            inline: 'center'
-        });
 
         await fetch('/api/chart', {
             method: 'POST',
@@ -73,7 +69,7 @@ export class Chart {
 
                     } else {
                         this.eChartsInstance.setOption(options, true);
-                        this.llmOutput.innerHTML = `<pre><strong>${chart_title}</strong><br>${explanation}</pre>`;
+                        this.llmOutput.innerHTML = `<strong>${chart_title}</strong><br>${explanation}`;
                     }
                 };
             })
