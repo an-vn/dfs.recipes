@@ -56,13 +56,17 @@ for (const [key, container] of Object.entries(containers)) {
             case 'data':
             case 'message':
                 inline = hasChart ? 'center' : 'nearest';
-                grid.style.gridTemplateColumns = '300px 80vw 60vw';
+                if (hasChart) {
+                    grid.style.gridTemplateColumns = '300px 2fr 1fr';
+                }
                 break;
             case 'chart':
             case 'llmOutput':
                 inline = 'end';
                 hasChart = true;
-                grid.style.gridTemplateColumns = '300px 40vw 60vw';
+                if (hasChart) {
+                    grid.style.gridTemplateColumns = '300px 1fr 2fr';
+                }
                 break;
         }
 
@@ -74,6 +78,12 @@ for (const [key, container] of Object.entries(containers)) {
 
         // navigation.notify(key);
         lastActive = key;
+
+        setTimeout(() => {
+            if (hasChart) {
+                window.dispatchEvent(new Event('resize'));
+            }
+        }, 2000);
     });
 }
 

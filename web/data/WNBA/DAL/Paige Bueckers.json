@@ -1,0 +1,707 @@
+{
+  "columnDefs": [
+    {
+      "field": "PLAYER",
+      "width": 140,
+      "pinned": "left",
+      "lockPinned": true
+    },
+    {
+      "field": "SZN",
+      "minWidth": 80
+    },
+    {
+      "field": "DATE",
+      "minWidth": 100
+    },
+    {
+      "field": "TEAM",
+      "width": 30
+    },
+    {
+      "field": "HA",
+      "width": 20
+    },
+    {
+      "field": "OPP",
+      "width": 40
+    },
+    {
+      "field": "RES",
+      "width": 10
+    },
+    {
+      "field": "TSC",
+      "type": "numericColumn"
+    },
+    {
+      "field": "OSC",
+      "type": "numericColumn"
+    },
+    {
+      "field": "DIFF",
+      "type": "numericColumn"
+    },
+    {
+      "field": "OT",
+      "width": 0
+    },
+    {
+      "field": "MIN",
+      "type": "numericColumn"
+    },
+    {
+      "field": "PRA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PTS",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FGM",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FGA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "3PM",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "3PA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "AST",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "REB",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "RA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PR",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FPTS",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "BLK",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "STL",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "BS",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "PF",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "TO",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FTM",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FTA",
+      "type": "editableColumn",
+      "cellEditor": "agNumberCellEditor",
+      "cellEditorParams": {
+        "min": 0.5,
+        "precision": 1,
+        "step": 1,
+        "showStepperButtons": true
+      }
+    },
+    {
+      "field": "FG%",
+      "type": "numericColumn"
+    },
+    {
+      "field": "3P%",
+      "type": "numericColumn"
+    },
+    {
+      "field": "FT%",
+      "type": "numericColumn"
+    }
+  ],
+  "rowData": [
+    {
+      "level_0": 0,
+      "index": 0,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-20",
+      "TEAM": "DAL",
+      "HA": "@",
+      "OPP": "CONN",
+      "RES": "W",
+      "TSC": 86,
+      "OSC": 83,
+      "DIFF": 3,
+      "OT": "",
+      "MIN": 37,
+      "PRA": 30,
+      "PTS": 21,
+      "FGM": 7,
+      "FGA": 16,
+      "3PM": 1,
+      "3PA": 4,
+      "AST": 7,
+      "REB": 2,
+      "RA": 9,
+      "PA": 28,
+      "PR": 23,
+      "FPTS": 35.9,
+      "BLK": 0,
+      "STL": 2,
+      "BS": 2,
+      "PF": 1,
+      "TO": 4,
+      "FTM": 6,
+      "FTA": 7,
+      "FG%": 43.8,
+      "3P%": 25.0,
+      "FT%": 85.7
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-17",
+      "TEAM": "DAL",
+      "HA": "vs",
+      "OPP": "GS",
+      "RES": "W",
+      "TSC": 80,
+      "OSC": 71,
+      "DIFF": 9,
+      "OT": "",
+      "MIN": 39,
+      "PRA": 26,
+      "PTS": 20,
+      "FGM": 9,
+      "FGA": 18,
+      "3PM": 0,
+      "3PA": 5,
+      "AST": 2,
+      "REB": 4,
+      "RA": 6,
+      "PA": 22,
+      "PR": 24,
+      "FPTS": 42.8,
+      "BLK": 2,
+      "STL": 4,
+      "BS": 6,
+      "PF": 3,
+      "TO": 3,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 50.0,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-13",
+      "TEAM": "DAL",
+      "HA": "@",
+      "OPP": "LV",
+      "RES": "L",
+      "TSC": 84,
+      "OSC": 88,
+      "DIFF": 4,
+      "OT": "",
+      "MIN": 38,
+      "PRA": 23,
+      "PTS": 16,
+      "FGM": 7,
+      "FGA": 19,
+      "3PM": 0,
+      "3PA": 2,
+      "AST": 5,
+      "REB": 2,
+      "RA": 7,
+      "PA": 21,
+      "PR": 18,
+      "FPTS": 29.9,
+      "BLK": 0,
+      "STL": 2,
+      "BS": 2,
+      "PF": 4,
+      "TO": 2,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 36.8,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-11",
+      "TEAM": "DAL",
+      "HA": "@",
+      "OPP": "PHX",
+      "RES": "L",
+      "TSC": 80,
+      "OSC": 93,
+      "DIFF": 13,
+      "OT": "",
+      "MIN": 37,
+      "PRA": 45,
+      "PTS": 35,
+      "FGM": 13,
+      "FGA": 19,
+      "3PM": 5,
+      "3PA": 7,
+      "AST": 4,
+      "REB": 6,
+      "RA": 10,
+      "PA": 39,
+      "PR": 41,
+      "FPTS": 52.2,
+      "BLK": 1,
+      "STL": 1,
+      "BS": 2,
+      "PF": 2,
+      "TO": 2,
+      "FTM": 4,
+      "FTA": 5,
+      "FG%": 68.4,
+      "3P%": 71.4,
+      "FT%": 80.0
+    },
+    {
+      "level_0": 4,
+      "index": 4,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-29",
+      "TEAM": "DAL",
+      "HA": "@",
+      "OPP": "CHI",
+      "RES": "L",
+      "TSC": 92,
+      "OSC": 97,
+      "DIFF": 5,
+      "OT": "",
+      "MIN": 36,
+      "PRA": 28,
+      "PTS": 15,
+      "FGM": 6,
+      "FGA": 11,
+      "3PM": 1,
+      "3PA": 2,
+      "AST": 8,
+      "REB": 5,
+      "RA": 13,
+      "PA": 23,
+      "PR": 20,
+      "FPTS": 48.0,
+      "BLK": 3,
+      "STL": 3,
+      "BS": 6,
+      "PF": 3,
+      "TO": 3,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 54.5,
+      "3P%": 50.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 5,
+      "index": 5,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-27",
+      "TEAM": "DAL",
+      "HA": "@",
+      "OPP": "CONN",
+      "RES": "W",
+      "TSC": 109,
+      "OSC": 87,
+      "DIFF": 22,
+      "OT": "",
+      "MIN": 35,
+      "PRA": 33,
+      "PTS": 21,
+      "FGM": 8,
+      "FGA": 10,
+      "3PM": 0,
+      "3PA": 1,
+      "AST": 7,
+      "REB": 5,
+      "RA": 12,
+      "PA": 28,
+      "PR": 26,
+      "FPTS": 43.5,
+      "BLK": 1,
+      "STL": 2,
+      "BS": 3,
+      "PF": 3,
+      "TO": 3,
+      "FTM": 5,
+      "FTA": 6,
+      "FG%": 80.0,
+      "3P%": 0.0,
+      "FT%": 83.3
+    },
+    {
+      "level_0": 6,
+      "index": 6,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-24",
+      "TEAM": "DAL",
+      "HA": "@",
+      "OPP": "ATL",
+      "RES": "L",
+      "TSC": 75,
+      "OSC": 83,
+      "DIFF": 8,
+      "OT": "",
+      "MIN": 28,
+      "PRA": 20,
+      "PTS": 11,
+      "FGM": 4,
+      "FGA": 15,
+      "3PM": 1,
+      "3PA": 3,
+      "AST": 5,
+      "REB": 4,
+      "RA": 9,
+      "PA": 16,
+      "PR": 15,
+      "FPTS": 28.3,
+      "BLK": 0,
+      "STL": 2,
+      "BS": 2,
+      "PF": 3,
+      "TO": 1,
+      "FTM": 2,
+      "FTA": 3,
+      "FG%": 26.7,
+      "3P%": 33.3,
+      "FT%": 66.7
+    },
+    {
+      "level_0": 7,
+      "index": 7,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-21",
+      "TEAM": "DAL",
+      "HA": "@",
+      "OPP": "MIN",
+      "RES": "L",
+      "TSC": 81,
+      "OSC": 85,
+      "DIFF": 4,
+      "OT": "",
+      "MIN": 37,
+      "PRA": 23,
+      "PTS": 12,
+      "FGM": 3,
+      "FGA": 11,
+      "3PM": 2,
+      "3PA": 5,
+      "AST": 10,
+      "REB": 1,
+      "RA": 11,
+      "PA": 22,
+      "PR": 13,
+      "FPTS": 35.2,
+      "BLK": 0,
+      "STL": 3,
+      "BS": 3,
+      "PF": 4,
+      "TO": 2,
+      "FTM": 4,
+      "FTA": 6,
+      "FG%": 27.3,
+      "3P%": 40.0,
+      "FT%": 66.7
+    },
+    {
+      "level_0": 8,
+      "index": 8,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-19",
+      "TEAM": "DAL",
+      "HA": "vs",
+      "OPP": "SEA",
+      "RES": "L",
+      "TSC": 71,
+      "OSC": 79,
+      "DIFF": 8,
+      "OT": "",
+      "MIN": 37,
+      "PRA": 33,
+      "PTS": 19,
+      "FGM": 7,
+      "FGA": 14,
+      "3PM": 1,
+      "3PA": 2,
+      "AST": 8,
+      "REB": 6,
+      "RA": 14,
+      "PA": 27,
+      "PR": 25,
+      "FPTS": 44.2,
+      "BLK": 1,
+      "STL": 2,
+      "BS": 3,
+      "PF": 5,
+      "TO": 3,
+      "FTM": 4,
+      "FTA": 5,
+      "FG%": 50.0,
+      "3P%": 50.0,
+      "FT%": 80.0
+    },
+    {
+      "level_0": 9,
+      "index": 9,
+      "PLAYER": "Paige Bueckers",
+      "SZN": "2025 REG",
+      "DATE": "2025-05-16",
+      "TEAM": "DAL",
+      "HA": "vs",
+      "OPP": "MIN",
+      "RES": "L",
+      "TSC": 84,
+      "OSC": 99,
+      "DIFF": 15,
+      "OT": "",
+      "MIN": 30,
+      "PRA": 19,
+      "PTS": 10,
+      "FGM": 3,
+      "FGA": 10,
+      "3PM": 0,
+      "3PA": 2,
+      "AST": 2,
+      "REB": 7,
+      "RA": 9,
+      "PA": 12,
+      "PR": 17,
+      "FPTS": 22.4,
+      "BLK": 1,
+      "STL": 0,
+      "BS": 1,
+      "PF": 3,
+      "TO": 2,
+      "FTM": 4,
+      "FTA": 4,
+      "FG%": 30.0,
+      "3P%": 0.0,
+      "FT%": 100.0
+    }
+  ],
+  "pinnedTopRowData": [
+    {
+      "RA": 10.0,
+      "REB": 4.0,
+      "PRA": 27.5,
+      "PR": 21.5,
+      "PA": 23.5,
+      "PTS": 17.5,
+      "TO": 2.5,
+      "FPTS": 38.05,
+      "FGA": 14.5,
+      "BS": 2.5,
+      "AST": 5.5,
+      "3PA": 3.5,
+      "FTM": 3.5,
+      "PLAYER": "LINE"
+    },
+    {
+      "PLAYER": "HIT RATE (%)",
+      "RA": 40,
+      "REB": 50,
+      "PRA": 50,
+      "PR": 50,
+      "PA": 40,
+      "PTS": 50,
+      "TO": 50,
+      "FPTS": 50,
+      "FGA": 50,
+      "BS": 50,
+      "AST": 50,
+      "3PA": 40,
+      "FTM": 60
+    },
+    {
+      "PLAYER": "AVG",
+      "RA": 10.0,
+      "REB": 4.2,
+      "PRA": 28.0,
+      "PR": 22.2,
+      "PA": 23.8,
+      "PTS": 18.0,
+      "TO": 2.5,
+      "FPTS": 38.2,
+      "FGA": 14.3,
+      "BS": 3.0,
+      "AST": 5.8,
+      "3PA": 3.3,
+      "FTM": 3.5
+    }
+  ]
+}

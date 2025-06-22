@@ -15,6 +15,12 @@ const gridOptions = {
             cellStyle: (p) => {
                 const line = p.api.getPinnedTopRow(0).data[p.column.colDef.field];
 
+                if (p.node.rowPinned === 'top') {
+                    if (p.rowIndex === 0) {
+                        return { background: 'rgba(0, 145, 234, 0.1)' };
+                    }
+                }
+
                 if (line === undefined || line === null) {
                     return {
                         background: 'inherit'
@@ -22,10 +28,6 @@ const gridOptions = {
                 }
 
                 if (p.node.rowPinned === 'top') {
-                    if (p.rowIndex === 0) {
-                        return { background: 'rgba(96,178,229,0.05)' };
-                    }
-
                     if (p.rowIndex === 1) {
                         if (p.value > 70) return { background: 'rgba(55, 255, 0, 0.1)' };
                         if (p.value < 30) return { background: 'rgba(255, 0, 0, 0.1)' };
@@ -147,10 +149,5 @@ export class Data {
     }
 
     handleNotify(data) {
-        // if (data === 'lines') {
-        //     this.container.classList.add('inactive');
-        // } else {
-        //     this.container.classList.remove('inactive');
-        // }
     }
 }

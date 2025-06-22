@@ -278,6 +278,158 @@
       "index": 0,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
+      "DATE": "2025-06-20",
+      "TEAM": "ATL",
+      "HA": "vs",
+      "OPP": "WSH",
+      "RES": "W",
+      "TSC": 92,
+      "OSC": 91,
+      "DIFF": 1,
+      "OT": "",
+      "MIN": 22,
+      "PRA": 24,
+      "PTS": 14,
+      "FGM": 4,
+      "FGA": 6,
+      "3PM": 1,
+      "3PA": 2,
+      "AST": 6,
+      "REB": 4,
+      "RA": 10,
+      "PA": 20,
+      "PR": 18,
+      "FPTS": 29.8,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 3,
+      "TO": 1,
+      "FTM": 5,
+      "FTA": 6,
+      "FG%": 66.7,
+      "3P%": 50.0,
+      "FT%": 83.3
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Brionna Jones",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-17",
+      "TEAM": "ATL",
+      "HA": "@",
+      "OPP": "NY",
+      "RES": "L",
+      "TSC": 81,
+      "OSC": 86,
+      "DIFF": 5,
+      "OT": "",
+      "MIN": 27,
+      "PRA": 19,
+      "PTS": 13,
+      "FGM": 5,
+      "FGA": 7,
+      "3PM": 1,
+      "3PA": 2,
+      "AST": 3,
+      "REB": 3,
+      "RA": 6,
+      "PA": 16,
+      "PR": 16,
+      "FPTS": 22.1,
+      "BLK": 1,
+      "STL": 0,
+      "BS": 1,
+      "PF": 3,
+      "TO": 2,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 71.4,
+      "3P%": 50.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Brionna Jones",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-15",
+      "TEAM": "ATL",
+      "HA": "@",
+      "OPP": "WSH",
+      "RES": "W",
+      "TSC": 89,
+      "OSC": 56,
+      "DIFF": 33,
+      "OT": "",
+      "MIN": 23,
+      "PRA": 11,
+      "PTS": 5,
+      "FGM": 2,
+      "FGA": 7,
+      "3PM": 1,
+      "3PA": 3,
+      "AST": 2,
+      "REB": 4,
+      "RA": 6,
+      "PA": 7,
+      "PR": 9,
+      "FPTS": 11.8,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 3,
+      "TO": 1,
+      "FTM": 0,
+      "FTA": 0,
+      "FG%": 28.6,
+      "3P%": 33.3,
+      "FT%": 0.0
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Brionna Jones",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-13",
+      "TEAM": "ATL",
+      "HA": "vs",
+      "OPP": "CHI",
+      "RES": "W",
+      "TSC": 88,
+      "OSC": 70,
+      "DIFF": 18,
+      "OT": "",
+      "MIN": 30,
+      "PRA": 24,
+      "PTS": 13,
+      "FGM": 6,
+      "FGA": 10,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 0,
+      "REB": 11,
+      "RA": 11,
+      "PA": 13,
+      "PR": 24,
+      "FPTS": 36.2,
+      "BLK": 2,
+      "STL": 2,
+      "BS": 4,
+      "PF": 4,
+      "TO": 2,
+      "FTM": 1,
+      "FTA": 1,
+      "FG%": 60.0,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 4,
+      "index": 4,
+      "PLAYER": "Brionna Jones",
+      "SZN": "2025 REG",
       "DATE": "2025-06-10",
       "TEAM": "ATL",
       "HA": "vs",
@@ -312,8 +464,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 1,
-      "index": 1,
+      "level_0": 5,
+      "index": 5,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-06-06",
@@ -350,8 +502,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 2,
-      "index": 2,
+      "level_0": 6,
+      "index": 6,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-05-30",
@@ -388,8 +540,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 3,
-      "index": 3,
+      "level_0": 7,
+      "index": 7,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-05-27",
@@ -426,8 +578,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 4,
-      "index": 4,
+      "level_0": 8,
+      "index": 8,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-05-25",
@@ -464,8 +616,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 5,
-      "index": 5,
+      "level_0": 9,
+      "index": 9,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-05-24",
@@ -502,8 +654,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 6,
-      "index": 6,
+      "level_0": 10,
+      "index": 10,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-05-22",
@@ -540,8 +692,8 @@
       "FT%": 71.4
     },
     {
-      "level_0": 7,
-      "index": 7,
+      "level_0": 11,
+      "index": 11,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-05-20",
@@ -578,8 +730,8 @@
       "FT%": 70.0
     },
     {
-      "level_0": 8,
-      "index": 8,
+      "level_0": 12,
+      "index": 12,
       "PLAYER": "Brionna Jones",
       "SZN": "2025 REG",
       "DATE": "2025-05-16",
@@ -616,8 +768,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 9,
-      "index": 9,
+      "level_0": 13,
+      "index": 13,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-19",
@@ -654,8 +806,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 10,
-      "index": 10,
+      "level_0": 14,
+      "index": 14,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-17",
@@ -692,8 +844,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 11,
-      "index": 11,
+      "level_0": 15,
+      "index": 15,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-15",
@@ -730,8 +882,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 12,
-      "index": 12,
+      "level_0": 16,
+      "index": 16,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-13",
@@ -768,8 +920,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 13,
-      "index": 13,
+      "level_0": 17,
+      "index": 17,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-10",
@@ -806,8 +958,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 14,
-      "index": 14,
+      "level_0": 18,
+      "index": 18,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-08",
@@ -844,8 +996,8 @@
       "FT%": 60.0
     },
     {
-      "level_0": 15,
-      "index": 15,
+      "level_0": 19,
+      "index": 19,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-06",
@@ -882,8 +1034,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 16,
-      "index": 16,
+      "level_0": 20,
+      "index": 20,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-03",
@@ -920,8 +1072,8 @@
       "FT%": 71.4
     },
     {
-      "level_0": 17,
-      "index": 17,
+      "level_0": 21,
+      "index": 21,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-09-01",
@@ -958,8 +1110,8 @@
       "FT%": 61.5
     },
     {
-      "level_0": 18,
-      "index": 18,
+      "level_0": 22,
+      "index": 22,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-08-31",
@@ -996,8 +1148,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 19,
-      "index": 19,
+      "level_0": 23,
+      "index": 23,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-08-28",
@@ -1034,8 +1186,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 20,
-      "index": 20,
+      "level_0": 24,
+      "index": 24,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-08-24",
@@ -1072,8 +1224,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 21,
-      "index": 21,
+      "level_0": 25,
+      "index": 25,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-08-23",
@@ -1110,8 +1262,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 22,
-      "index": 22,
+      "level_0": 26,
+      "index": 26,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-08-20",
@@ -1148,8 +1300,8 @@
       "FT%": 33.3
     },
     {
-      "level_0": 23,
-      "index": 23,
+      "level_0": 27,
+      "index": 27,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-08-18",
@@ -1186,8 +1338,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 24,
-      "index": 24,
+      "level_0": 28,
+      "index": 28,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-08-16",
@@ -1224,8 +1376,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 25,
-      "index": 25,
+      "level_0": 29,
+      "index": 29,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-07-16",
@@ -1262,8 +1414,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 26,
-      "index": 26,
+      "level_0": 30,
+      "index": 30,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-07-14",
@@ -1300,8 +1452,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 27,
-      "index": 27,
+      "level_0": 31,
+      "index": 31,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-07-10",
@@ -1338,8 +1490,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 28,
-      "index": 28,
+      "level_0": 32,
+      "index": 32,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-07-07",
@@ -1376,8 +1528,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 29,
-      "index": 29,
+      "level_0": 33,
+      "index": 33,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-07-04",
@@ -1414,8 +1566,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 30,
-      "index": 30,
+      "level_0": 34,
+      "index": 34,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-07-01",
@@ -1452,8 +1604,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 31,
-      "index": 31,
+      "level_0": 35,
+      "index": 35,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-28",
@@ -1490,8 +1642,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 32,
-      "index": 32,
+      "level_0": 36,
+      "index": 36,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-27",
@@ -1528,8 +1680,8 @@
       "FT%": 25.0
     },
     {
-      "level_0": 33,
-      "index": 33,
+      "level_0": 37,
+      "index": 37,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-23",
@@ -1566,8 +1718,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 34,
-      "index": 34,
+      "level_0": 38,
+      "index": 38,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-21",
@@ -1604,8 +1756,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 35,
-      "index": 35,
+      "level_0": 39,
+      "index": 39,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-18",
@@ -1642,8 +1794,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 36,
-      "index": 36,
+      "level_0": 40,
+      "index": 40,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-15",
@@ -1680,8 +1832,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 37,
-      "index": 37,
+      "level_0": 41,
+      "index": 41,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-12",
@@ -1718,8 +1870,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 38,
-      "index": 38,
+      "level_0": 42,
+      "index": 42,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-10",
@@ -1756,8 +1908,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 39,
-      "index": 39,
+      "level_0": 43,
+      "index": 43,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-08",
@@ -1794,8 +1946,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 40,
-      "index": 40,
+      "level_0": 44,
+      "index": 44,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-04",
@@ -1832,8 +1984,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 41,
-      "index": 41,
+      "level_0": 45,
+      "index": 45,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-06-02",
@@ -1870,8 +2022,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 42,
-      "index": 42,
+      "level_0": 46,
+      "index": 46,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-05-31",
@@ -1908,8 +2060,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 43,
-      "index": 43,
+      "level_0": 47,
+      "index": 47,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-05-28",
@@ -1946,8 +2098,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 44,
-      "index": 44,
+      "level_0": 48,
+      "index": 48,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-05-25",
@@ -1984,8 +2136,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 45,
-      "index": 45,
+      "level_0": 49,
+      "index": 49,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-05-23",
@@ -2022,8 +2174,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 46,
-      "index": 46,
+      "level_0": 50,
+      "index": 50,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-05-20",
@@ -2060,8 +2212,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 47,
-      "index": 47,
+      "level_0": 51,
+      "index": 51,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-05-17",
@@ -2098,8 +2250,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 48,
-      "index": 48,
+      "level_0": 52,
+      "index": 52,
       "PLAYER": "Brionna Jones",
       "SZN": "2024 REG",
       "DATE": "2024-05-14",
@@ -2138,28 +2290,37 @@
   ],
   "pinnedTopRowData": [
     {
-      "PR": 21.5,
+      "TO": 1.5,
+      "STL": 0.5,
+      "REB": 6.5,
+      "PRA": 22.0,
+      "PR": 19.5,
       "PTS": 12.5,
-      "FPTS": 30.55,
-      "REB": 8.5,
-      "PRA": 23.5,
+      "FPTS": 26.0,
+      "FGA": 9.5,
       "PLAYER": "LINE"
     },
     {
       "PLAYER": "HIT RATE (%)",
-      "PR": 44,
-      "PTS": 57,
-      "FPTS": 38,
-      "REB": 18,
-      "PRA": 38
+      "TO": 43,
+      "STL": 66,
+      "REB": 37,
+      "PRA": 41,
+      "PR": 50,
+      "PTS": 58,
+      "FPTS": 50,
+      "FGA": 54
     },
     {
       "PLAYER": "AVG",
-      "PR": 19.9,
-      "PTS": 13.8,
-      "FPTS": 27.1,
-      "REB": 6.2,
-      "PRA": 21.5
+      "TO": 1.4,
+      "STL": 1.1,
+      "REB": 6.1,
+      "PRA": 21.4,
+      "PR": 19.7,
+      "PTS": 13.6,
+      "FPTS": 26.9,
+      "FGA": 10.1
     }
   ]
 }

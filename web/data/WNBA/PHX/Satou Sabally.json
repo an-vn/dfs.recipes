@@ -278,6 +278,120 @@
       "index": 0,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
+      "DATE": "2025-06-18",
+      "TEAM": "PHX",
+      "HA": "@",
+      "OPP": "CONN",
+      "RES": "W",
+      "TSC": 83,
+      "OSC": 75,
+      "DIFF": 8,
+      "OT": "",
+      "MIN": 29,
+      "PRA": 28,
+      "PTS": 12,
+      "FGM": 3,
+      "FGA": 11,
+      "3PM": 1,
+      "3PA": 5,
+      "AST": 1,
+      "REB": 15,
+      "RA": 16,
+      "PA": 13,
+      "PR": 27,
+      "FPTS": 36.5,
+      "BLK": 1,
+      "STL": 1,
+      "BS": 2,
+      "PF": 2,
+      "TO": 1,
+      "FTM": 5,
+      "FTA": 6,
+      "FG%": 27.3,
+      "3P%": 20.0,
+      "FT%": 83.3
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Satou Sabally",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-15",
+      "TEAM": "PHX",
+      "HA": "@",
+      "OPP": "LV",
+      "RES": "W",
+      "TSC": 76,
+      "OSC": 70,
+      "DIFF": 6,
+      "OT": "",
+      "MIN": 30,
+      "PRA": 34,
+      "PTS": 22,
+      "FGM": 6,
+      "FGA": 15,
+      "3PM": 3,
+      "3PA": 8,
+      "AST": 3,
+      "REB": 9,
+      "RA": 12,
+      "PA": 25,
+      "PR": 31,
+      "FPTS": 42.3,
+      "BLK": 1,
+      "STL": 1,
+      "BS": 2,
+      "PF": 2,
+      "TO": 1,
+      "FTM": 7,
+      "FTA": 7,
+      "FG%": 40.0,
+      "3P%": 37.5,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Satou Sabally",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-11",
+      "TEAM": "PHX",
+      "HA": "vs",
+      "OPP": "DAL",
+      "RES": "W",
+      "TSC": 93,
+      "OSC": 80,
+      "DIFF": 13,
+      "OT": "",
+      "MIN": 26,
+      "PRA": 31,
+      "PTS": 20,
+      "FGM": 7,
+      "FGA": 15,
+      "3PM": 4,
+      "3PA": 10,
+      "AST": 2,
+      "REB": 9,
+      "RA": 11,
+      "PA": 22,
+      "PR": 29,
+      "FPTS": 34.8,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 5,
+      "TO": 2,
+      "FTM": 2,
+      "FTA": 3,
+      "FG%": 46.7,
+      "3P%": 40.0,
+      "FT%": 66.7
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Satou Sabally",
+      "SZN": "2025 REG",
       "DATE": "2025-06-07",
       "TEAM": "PHX",
       "HA": "vs",
@@ -312,8 +426,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 1,
-      "index": 1,
+      "level_0": 4,
+      "index": 4,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-06-05",
@@ -350,8 +464,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 2,
-      "index": 2,
+      "level_0": 5,
+      "index": 5,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-06-03",
@@ -388,8 +502,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 3,
-      "index": 3,
+      "level_0": 6,
+      "index": 6,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-06-01",
@@ -426,8 +540,8 @@
       "FT%": 72.7
     },
     {
-      "level_0": 4,
-      "index": 4,
+      "level_0": 7,
+      "index": 7,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-05-30",
@@ -464,8 +578,8 @@
       "FT%": 85.7
     },
     {
-      "level_0": 5,
-      "index": 5,
+      "level_0": 8,
+      "index": 8,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-05-27",
@@ -502,8 +616,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 6,
-      "index": 6,
+      "level_0": 9,
+      "index": 9,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-05-25",
@@ -540,8 +654,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 7,
-      "index": 7,
+      "level_0": 10,
+      "index": 10,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-05-23",
@@ -578,8 +692,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 8,
-      "index": 8,
+      "level_0": 11,
+      "index": 11,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-05-21",
@@ -616,8 +730,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 9,
-      "index": 9,
+      "level_0": 12,
+      "index": 12,
       "PLAYER": "Satou Sabally",
       "SZN": "2025 REG",
       "DATE": "2025-05-17",
@@ -654,8 +768,8 @@
       "FT%": 85.7
     },
     {
-      "level_0": 10,
-      "index": 10,
+      "level_0": 13,
+      "index": 13,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-19",
@@ -692,8 +806,8 @@
       "FT%": 90.0
     },
     {
-      "level_0": 11,
-      "index": 11,
+      "level_0": 14,
+      "index": 14,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-15",
@@ -730,8 +844,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 12,
-      "index": 12,
+      "level_0": 15,
+      "index": 15,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-13",
@@ -768,8 +882,8 @@
       "FT%": 83.3
     },
     {
-      "level_0": 13,
-      "index": 13,
+      "level_0": 16,
+      "index": 16,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-12",
@@ -806,8 +920,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 14,
-      "index": 14,
+      "level_0": 17,
+      "index": 17,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-10",
@@ -844,8 +958,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 15,
-      "index": 15,
+      "level_0": 18,
+      "index": 18,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-08",
@@ -882,8 +996,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 16,
-      "index": 16,
+      "level_0": 19,
+      "index": 19,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-06",
@@ -920,8 +1034,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 17,
-      "index": 17,
+      "level_0": 20,
+      "index": 20,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-03",
@@ -958,8 +1072,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 18,
-      "index": 18,
+      "level_0": 21,
+      "index": 21,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-09-01",
@@ -996,8 +1110,8 @@
       "FT%": 90.0
     },
     {
-      "level_0": 19,
-      "index": 19,
+      "level_0": 22,
+      "index": 22,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-08-30",
@@ -1034,8 +1148,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 20,
-      "index": 20,
+      "level_0": 23,
+      "index": 23,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-08-27",
@@ -1072,8 +1186,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 21,
-      "index": 21,
+      "level_0": 24,
+      "index": 24,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-08-25",
@@ -1110,8 +1224,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 22,
-      "index": 22,
+      "level_0": 25,
+      "index": 25,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-08-22",
@@ -1148,8 +1262,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 23,
-      "index": 23,
+      "level_0": 26,
+      "index": 26,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-08-20",
@@ -1186,8 +1300,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 24,
-      "index": 24,
+      "level_0": 27,
+      "index": 27,
       "PLAYER": "Satou Sabally",
       "SZN": "2024 REG",
       "DATE": "2024-08-16",
@@ -1226,34 +1340,28 @@
   ],
   "pinnedTopRowData": [
     {
-      "FPTS": 38.55,
       "PA": 22.5,
-      "PR": 26.5,
-      "PRA": 30.5,
-      "REB": 7.5,
-      "RA": 10.5,
-      "PTS": 19.5,
+      "PR": 28.5,
+      "PRA": 31.5,
+      "REB": 8.0,
+      "PTS": 20.5,
       "PLAYER": "LINE"
     },
     {
       "PLAYER": "HIT RATE (%)",
-      "FPTS": 44,
-      "PA": 64,
-      "PR": 48,
-      "PRA": 56,
-      "REB": 40,
-      "RA": 72,
-      "PTS": 48
+      "PA": 60,
+      "PR": 39,
+      "PRA": 42,
+      "REB": 28,
+      "PTS": 39
     },
     {
       "PLAYER": "AVG",
-      "FPTS": 36.9,
-      "PA": 23.2,
-      "PR": 25.9,
-      "PRA": 30.1,
-      "REB": 6.9,
-      "RA": 11.1,
-      "PTS": 19.0
+      "PA": 22.8,
+      "PR": 26.2,
+      "PRA": 30.2,
+      "REB": 7.4,
+      "PTS": 18.9
     }
   ]
 }

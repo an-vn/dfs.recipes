@@ -278,6 +278,158 @@
       "index": 0,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
+      "DATE": "2025-06-21",
+      "TEAM": "CHI",
+      "HA": "vs",
+      "OPP": "PHX",
+      "RES": "L",
+      "TSC": 86,
+      "OSC": 107,
+      "DIFF": 21,
+      "OT": "",
+      "MIN": 21,
+      "PRA": 20,
+      "PTS": 17,
+      "FGM": 7,
+      "FGA": 9,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 0,
+      "REB": 3,
+      "RA": 3,
+      "PA": 17,
+      "PR": 20,
+      "FPTS": 20.6,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 2,
+      "TO": 3,
+      "FTM": 3,
+      "FTA": 5,
+      "FG%": 77.8,
+      "3P%": 0.0,
+      "FT%": 60.0
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Kamilla Cardoso",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-17",
+      "TEAM": "CHI",
+      "HA": "vs",
+      "OPP": "WSH",
+      "RES": "L",
+      "TSC": 72,
+      "OSC": 79,
+      "DIFF": 7,
+      "OT": "",
+      "MIN": 29,
+      "PRA": 29,
+      "PTS": 18,
+      "FGM": 8,
+      "FGA": 13,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 1,
+      "REB": 10,
+      "RA": 11,
+      "PA": 19,
+      "PR": 28,
+      "FPTS": 35.5,
+      "BLK": 1,
+      "STL": 1,
+      "BS": 2,
+      "PF": 2,
+      "TO": 2,
+      "FTM": 2,
+      "FTA": 5,
+      "FG%": 61.5,
+      "3P%": 0.0,
+      "FT%": 40.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Kamilla Cardoso",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-15",
+      "TEAM": "CHI",
+      "HA": "@",
+      "OPP": "CONN",
+      "RES": "W",
+      "TSC": 78,
+      "OSC": 66,
+      "DIFF": 12,
+      "OT": "",
+      "MIN": 25,
+      "PRA": 18,
+      "PTS": 10,
+      "FGM": 3,
+      "FGA": 8,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 1,
+      "REB": 7,
+      "RA": 8,
+      "PA": 11,
+      "PR": 17,
+      "FPTS": 17.9,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 4,
+      "TO": 2,
+      "FTM": 4,
+      "FTA": 4,
+      "FG%": 37.5,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Kamilla Cardoso",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-13",
+      "TEAM": "CHI",
+      "HA": "@",
+      "OPP": "ATL",
+      "RES": "L",
+      "TSC": 70,
+      "OSC": 88,
+      "DIFF": 18,
+      "OT": "",
+      "MIN": 27,
+      "PRA": 27,
+      "PTS": 15,
+      "FGM": 7,
+      "FGA": 12,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 3,
+      "REB": 9,
+      "RA": 12,
+      "PA": 18,
+      "PR": 24,
+      "FPTS": 33.3,
+      "BLK": 2,
+      "STL": 0,
+      "BS": 2,
+      "PF": 2,
+      "TO": 3,
+      "FTM": 1,
+      "FTA": 3,
+      "FG%": 58.3,
+      "3P%": 0.0,
+      "FT%": 33.3
+    },
+    {
+      "level_0": 4,
+      "index": 4,
+      "PLAYER": "Kamilla Cardoso",
+      "SZN": "2025 REG",
       "DATE": "2025-06-10",
       "TEAM": "CHI",
       "HA": "@",
@@ -312,8 +464,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 1,
-      "index": 1,
+      "level_0": 5,
+      "index": 5,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
       "DATE": "2025-06-07",
@@ -350,8 +502,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 2,
-      "index": 2,
+      "level_0": 6,
+      "index": 6,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
       "DATE": "2025-05-31",
@@ -388,8 +540,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 3,
-      "index": 3,
+      "level_0": 7,
+      "index": 7,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
       "DATE": "2025-05-29",
@@ -426,8 +578,8 @@
       "FT%": 83.3
     },
     {
-      "level_0": 4,
-      "index": 4,
+      "level_0": 8,
+      "index": 8,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
       "DATE": "2025-05-27",
@@ -464,8 +616,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 5,
-      "index": 5,
+      "level_0": 9,
+      "index": 9,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
       "DATE": "2025-05-25",
@@ -502,8 +654,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 6,
-      "index": 6,
+      "level_0": 10,
+      "index": 10,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
       "DATE": "2025-05-22",
@@ -540,8 +692,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 7,
-      "index": 7,
+      "level_0": 11,
+      "index": 11,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2025 REG",
       "DATE": "2025-05-17",
@@ -578,8 +730,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 8,
-      "index": 8,
+      "level_0": 12,
+      "index": 12,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-09-15",
@@ -616,8 +768,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 9,
-      "index": 9,
+      "level_0": 13,
+      "index": 13,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-09-13",
@@ -654,8 +806,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 10,
-      "index": 10,
+      "level_0": 14,
+      "index": 14,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-09-11",
@@ -692,8 +844,8 @@
       "FT%": 83.3
     },
     {
-      "level_0": 11,
-      "index": 11,
+      "level_0": 15,
+      "index": 15,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-09-08",
@@ -730,8 +882,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 12,
-      "index": 12,
+      "level_0": 16,
+      "index": 16,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-09-06",
@@ -768,8 +920,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 13,
-      "index": 13,
+      "level_0": 17,
+      "index": 17,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-09-03",
@@ -806,8 +958,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 14,
-      "index": 14,
+      "level_0": 18,
+      "index": 18,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-09-01",
@@ -844,8 +996,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 15,
-      "index": 15,
+      "level_0": 19,
+      "index": 19,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-08-30",
@@ -882,8 +1034,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 16,
-      "index": 16,
+      "level_0": 20,
+      "index": 20,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-08-28",
@@ -920,8 +1072,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 17,
-      "index": 17,
+      "level_0": 21,
+      "index": 21,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-08-25",
@@ -958,8 +1110,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 18,
-      "index": 18,
+      "level_0": 22,
+      "index": 22,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-08-23",
@@ -996,8 +1148,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 19,
-      "index": 19,
+      "level_0": 23,
+      "index": 23,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-08-18",
@@ -1034,8 +1186,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 20,
-      "index": 20,
+      "level_0": 24,
+      "index": 24,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-08-17",
@@ -1072,8 +1224,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 21,
-      "index": 21,
+      "level_0": 25,
+      "index": 25,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-08-15",
@@ -1110,8 +1262,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 22,
-      "index": 22,
+      "level_0": 26,
+      "index": 26,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-07-16",
@@ -1148,8 +1300,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 23,
-      "index": 23,
+      "level_0": 27,
+      "index": 27,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-07-13",
@@ -1186,8 +1338,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 24,
-      "index": 24,
+      "level_0": 28,
+      "index": 28,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-07-11",
@@ -1224,8 +1376,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 25,
-      "index": 25,
+      "level_0": 29,
+      "index": 29,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-07-10",
@@ -1262,8 +1414,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 26,
-      "index": 26,
+      "level_0": 30,
+      "index": 30,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-07-07",
@@ -1300,8 +1452,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 27,
-      "index": 27,
+      "level_0": 31,
+      "index": 31,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-07-05",
@@ -1338,8 +1490,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 28,
-      "index": 28,
+      "level_0": 32,
+      "index": 32,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-07-02",
@@ -1376,8 +1528,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 29,
-      "index": 29,
+      "level_0": 33,
+      "index": 33,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-30",
@@ -1414,8 +1566,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 30,
-      "index": 30,
+      "level_0": 34,
+      "index": 34,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-27",
@@ -1452,8 +1604,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 31,
-      "index": 31,
+      "level_0": 35,
+      "index": 35,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-23",
@@ -1490,8 +1642,8 @@
       "FT%": 40.0
     },
     {
-      "level_0": 32,
-      "index": 32,
+      "level_0": 36,
+      "index": 36,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-20",
@@ -1528,8 +1680,8 @@
       "FT%": 25.0
     },
     {
-      "level_0": 33,
-      "index": 33,
+      "level_0": 37,
+      "index": 37,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-16",
@@ -1566,8 +1718,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 34,
-      "index": 34,
+      "level_0": 38,
+      "index": 38,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-14",
@@ -1604,8 +1756,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 35,
-      "index": 35,
+      "level_0": 39,
+      "index": 39,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-12",
@@ -1642,8 +1794,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 36,
-      "index": 36,
+      "level_0": 40,
+      "index": 40,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-08",
@@ -1680,8 +1832,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 37,
-      "index": 37,
+      "level_0": 41,
+      "index": 41,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-06",
@@ -1718,8 +1870,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 38,
-      "index": 38,
+      "level_0": 42,
+      "index": 42,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-04",
@@ -1756,8 +1908,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 39,
-      "index": 39,
+      "level_0": 43,
+      "index": 43,
       "PLAYER": "Kamilla Cardoso",
       "SZN": "2024 REG",
       "DATE": "2024-06-01",
@@ -1796,28 +1948,37 @@
   ],
   "pinnedTopRowData": [
     {
+      "BLK": 0.5,
+      "FGA": 8.5,
+      "FPTS": 22.5,
+      "FTM": 1.5,
       "REB": 7.0,
-      "PRA": 18.5,
-      "PR": 16.5,
-      "PTS": 9.5,
-      "FPTS": 21.55,
+      "PRA": 19.0,
+      "PR": 17.5,
+      "PTS": 10.5,
       "PLAYER": "LINE"
     },
     {
       "PLAYER": "HIT RATE (%)",
-      "REB": 57,
-      "PRA": 55,
-      "PR": 55,
-      "PTS": 52,
-      "FPTS": 65
+      "BLK": 61,
+      "FGA": 50,
+      "FPTS": 56,
+      "FTM": 50,
+      "REB": 56,
+      "PRA": 45,
+      "PR": 50,
+      "PTS": 40
     },
     {
       "PLAYER": "AVG",
+      "BLK": 1.2,
+      "FGA": 8.1,
+      "FPTS": 25.4,
+      "FTM": 1.9,
       "REB": 7.6,
-      "PRA": 19.2,
-      "PR": 17.6,
-      "PTS": 9.9,
-      "FPTS": 25.3
+      "PRA": 19.6,
+      "PR": 18.0,
+      "PTS": 10.4
     }
   ]
 }

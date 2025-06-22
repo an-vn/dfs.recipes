@@ -9,6 +9,8 @@ export class Chart {
         this.eChartsInstance = null;
         this.initChartInstance();
         window.onresize = this.handleResize.bind(this);
+        // const resizeObserver = new ResizeObserver();
+
         this.loadingParams = {
             color: 'rgba(0, 0, 0, 0.5)',
             fontSize: 13,
@@ -30,6 +32,7 @@ export class Chart {
     }
 
     handleResize() {
+        console.log('resizing', this.eChartsInstance);
         if (this.eChartsInstance) {
             this.eChartsInstance.resize();
         }
@@ -59,17 +62,22 @@ export class Chart {
                 return res.json();
             })
             .then((res) => {
-                const { chart_title, chart_type, javascript, explanation } = res;
+                const { chart_title, chart_type, javascript, explanation, user_requirements } = res;
 
                 const worker = spawnSandboxWorker(javascript);
                 worker.postMessage(dataset);
                 worker.onmessage = (e) => {
                     const { options, error } = e.data;
                     if (error) {
-
+                        console.error(e);
+                        if (!res.ok) throw new Error('Error processing chart data');
                     } else {
                         this.eChartsInstance.setOption(options, true);
-                        this.llmOutput.innerHTML = `<strong>${chart_title}</strong><br>${explanation}`;
+                        this.llmOutput.innerHTML = `
+<strong>Prompt</strong><output>${user_requirements}</output>
+<strong>Chart Title</strong><output>${chart_title}</output>
+<strong>AI Explanation</strong><output>${explanation}</output>
+`;
                     }
                 };
             })

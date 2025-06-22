@@ -278,6 +278,158 @@
       "index": 0,
       "PLAYER": "Jordin Canada",
       "SZN": "2025 REG",
+      "DATE": "2025-06-20",
+      "TEAM": "ATL",
+      "HA": "vs",
+      "OPP": "WSH",
+      "RES": "W",
+      "TSC": 92,
+      "OSC": 91,
+      "DIFF": 1,
+      "OT": "",
+      "MIN": 25,
+      "PRA": 16,
+      "PTS": 11,
+      "FGM": 4,
+      "FGA": 7,
+      "3PM": 1,
+      "3PA": 2,
+      "AST": 4,
+      "REB": 1,
+      "RA": 5,
+      "PA": 15,
+      "PR": 12,
+      "FPTS": 22.2,
+      "BLK": 0,
+      "STL": 2,
+      "BS": 2,
+      "PF": 1,
+      "TO": 2,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 57.1,
+      "3P%": 50.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Jordin Canada",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-17",
+      "TEAM": "ATL",
+      "HA": "@",
+      "OPP": "NY",
+      "RES": "L",
+      "TSC": 81,
+      "OSC": 86,
+      "DIFF": 5,
+      "OT": "",
+      "MIN": 25,
+      "PRA": 17,
+      "PTS": 9,
+      "FGM": 3,
+      "FGA": 6,
+      "3PM": 1,
+      "3PA": 2,
+      "AST": 3,
+      "REB": 5,
+      "RA": 8,
+      "PA": 12,
+      "PR": 14,
+      "FPTS": 22.5,
+      "BLK": 1,
+      "STL": 1,
+      "BS": 2,
+      "PF": 0,
+      "TO": 3,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 50.0,
+      "3P%": 50.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Jordin Canada",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-15",
+      "TEAM": "ATL",
+      "HA": "@",
+      "OPP": "WSH",
+      "RES": "W",
+      "TSC": 89,
+      "OSC": 56,
+      "DIFF": 33,
+      "OT": "",
+      "MIN": 21,
+      "PRA": 13,
+      "PTS": 4,
+      "FGM": 1,
+      "FGA": 5,
+      "3PM": 0,
+      "3PA": 1,
+      "AST": 2,
+      "REB": 7,
+      "RA": 9,
+      "PA": 6,
+      "PR": 11,
+      "FPTS": 24.4,
+      "BLK": 0,
+      "STL": 3,
+      "BS": 3,
+      "PF": 2,
+      "TO": 0,
+      "FTM": 2,
+      "FTA": 4,
+      "FG%": 20.0,
+      "3P%": 0.0,
+      "FT%": 50.0
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Jordin Canada",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-13",
+      "TEAM": "ATL",
+      "HA": "vs",
+      "OPP": "CHI",
+      "RES": "W",
+      "TSC": 88,
+      "OSC": 70,
+      "DIFF": 18,
+      "OT": "",
+      "MIN": 26,
+      "PRA": 22,
+      "PTS": 12,
+      "FGM": 5,
+      "FGA": 8,
+      "3PM": 2,
+      "3PA": 3,
+      "AST": 8,
+      "REB": 2,
+      "RA": 10,
+      "PA": 20,
+      "PR": 14,
+      "FPTS": 28.4,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 3,
+      "TO": 1,
+      "FTM": 0,
+      "FTA": 0,
+      "FG%": 62.5,
+      "3P%": 66.7,
+      "FT%": 0.0
+    },
+    {
+      "level_0": 4,
+      "index": 4,
+      "PLAYER": "Jordin Canada",
+      "SZN": "2025 REG",
       "DATE": "2025-06-10",
       "TEAM": "ATL",
       "HA": "vs",
@@ -312,8 +464,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 1,
-      "index": 1,
+      "level_0": 5,
+      "index": 5,
       "PLAYER": "Jordin Canada",
       "SZN": "2025 REG",
       "DATE": "2025-06-06",
@@ -350,8 +502,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 2,
-      "index": 2,
+      "level_0": 6,
+      "index": 6,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-19",
@@ -388,8 +540,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 3,
-      "index": 3,
+      "level_0": 7,
+      "index": 7,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-17",
@@ -426,8 +578,8 @@
       "FT%": 85.7
     },
     {
-      "level_0": 4,
-      "index": 4,
+      "level_0": 8,
+      "index": 8,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-15",
@@ -464,8 +616,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 5,
-      "index": 5,
+      "level_0": 9,
+      "index": 9,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-13",
@@ -502,8 +654,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 6,
-      "index": 6,
+      "level_0": 10,
+      "index": 10,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-10",
@@ -540,8 +692,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 7,
-      "index": 7,
+      "level_0": 11,
+      "index": 11,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-08",
@@ -578,8 +730,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 8,
-      "index": 8,
+      "level_0": 12,
+      "index": 12,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-06",
@@ -616,8 +768,8 @@
       "FT%": 83.3
     },
     {
-      "level_0": 9,
-      "index": 9,
+      "level_0": 13,
+      "index": 13,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-03",
@@ -654,8 +806,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 10,
-      "index": 10,
+      "level_0": 14,
+      "index": 14,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-09-01",
@@ -692,8 +844,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 11,
-      "index": 11,
+      "level_0": 15,
+      "index": 15,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-08-30",
@@ -730,8 +882,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 12,
-      "index": 12,
+      "level_0": 16,
+      "index": 16,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-08-28",
@@ -768,8 +920,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 13,
-      "index": 13,
+      "level_0": 17,
+      "index": 17,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-08-26",
@@ -806,8 +958,8 @@
       "FT%": 71.4
     },
     {
-      "level_0": 14,
-      "index": 14,
+      "level_0": 18,
+      "index": 18,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-08-23",
@@ -844,8 +996,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 15,
-      "index": 15,
+      "level_0": 19,
+      "index": 19,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-08-21",
@@ -882,8 +1034,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 16,
-      "index": 16,
+      "level_0": 20,
+      "index": 20,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-08-18",
@@ -920,8 +1072,8 @@
       "FT%": 87.5
     },
     {
-      "level_0": 17,
-      "index": 17,
+      "level_0": 21,
+      "index": 21,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-08-16",
@@ -958,8 +1110,8 @@
       "FT%": 85.7
     },
     {
-      "level_0": 18,
-      "index": 18,
+      "level_0": 22,
+      "index": 22,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-07-02",
@@ -996,8 +1148,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 19,
-      "index": 19,
+      "level_0": 23,
+      "index": 23,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-06-30",
@@ -1034,8 +1186,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 20,
-      "index": 20,
+      "level_0": 24,
+      "index": 24,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-06-28",
@@ -1072,8 +1224,8 @@
       "FT%": 62.5
     },
     {
-      "level_0": 21,
-      "index": 21,
+      "level_0": 25,
+      "index": 25,
       "PLAYER": "Jordin Canada",
       "SZN": "2024 REG",
       "DATE": "2024-06-23",
@@ -1112,16 +1264,16 @@
   ],
   "pinnedTopRowData": [
     {
-      "PTS": 8.5,
+      "PTS": 9.0,
       "PLAYER": "LINE"
     },
     {
       "PLAYER": "HIT RATE (%)",
-      "PTS": 59
+      "PTS": 50
     },
     {
       "PLAYER": "AVG",
-      "PTS": 9.8
+      "PTS": 9.7
     }
   ]
 }

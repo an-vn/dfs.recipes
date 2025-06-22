@@ -278,6 +278,158 @@
       "index": 0,
       "PLAYER": "Brittney Griner",
       "SZN": "2025 REG",
+      "DATE": "2025-06-20",
+      "TEAM": "ATL",
+      "HA": "vs",
+      "OPP": "WSH",
+      "RES": "W",
+      "TSC": 92,
+      "OSC": 91,
+      "DIFF": 1,
+      "OT": "",
+      "MIN": 27,
+      "PRA": 18,
+      "PTS": 10,
+      "FGM": 3,
+      "FGA": 6,
+      "3PM": 0,
+      "3PA": 1,
+      "AST": 1,
+      "REB": 7,
+      "RA": 8,
+      "PA": 11,
+      "PR": 17,
+      "FPTS": 20.9,
+      "BLK": 1,
+      "STL": 0,
+      "BS": 1,
+      "PF": 1,
+      "TO": 2,
+      "FTM": 4,
+      "FTA": 4,
+      "FG%": 50.0,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Brittney Griner",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-17",
+      "TEAM": "ATL",
+      "HA": "@",
+      "OPP": "NY",
+      "RES": "L",
+      "TSC": 81,
+      "OSC": 86,
+      "DIFF": 5,
+      "OT": "",
+      "MIN": 23,
+      "PRA": 11,
+      "PTS": 9,
+      "FGM": 4,
+      "FGA": 7,
+      "3PM": 1,
+      "3PA": 1,
+      "AST": 0,
+      "REB": 2,
+      "RA": 2,
+      "PA": 9,
+      "PR": 11,
+      "FPTS": 16.4,
+      "BLK": 2,
+      "STL": 0,
+      "BS": 2,
+      "PF": 2,
+      "TO": 1,
+      "FTM": 0,
+      "FTA": 0,
+      "FG%": 57.1,
+      "3P%": 100.0,
+      "FT%": 0.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Brittney Griner",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-15",
+      "TEAM": "ATL",
+      "HA": "@",
+      "OPP": "WSH",
+      "RES": "W",
+      "TSC": 89,
+      "OSC": 56,
+      "DIFF": 33,
+      "OT": "",
+      "MIN": 19,
+      "PRA": 11,
+      "PTS": 2,
+      "FGM": 1,
+      "FGA": 4,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 1,
+      "REB": 8,
+      "RA": 9,
+      "PA": 3,
+      "PR": 10,
+      "FPTS": 19.1,
+      "BLK": 2,
+      "STL": 0,
+      "BS": 2,
+      "PF": 0,
+      "TO": 0,
+      "FTM": 0,
+      "FTA": 0,
+      "FG%": 25.0,
+      "3P%": 0.0,
+      "FT%": 0.0
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Brittney Griner",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-13",
+      "TEAM": "ATL",
+      "HA": "vs",
+      "OPP": "CHI",
+      "RES": "W",
+      "TSC": 88,
+      "OSC": 70,
+      "DIFF": 18,
+      "OT": "",
+      "MIN": 26,
+      "PRA": 11,
+      "PTS": 7,
+      "FGM": 2,
+      "FGA": 3,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 0,
+      "REB": 4,
+      "RA": 4,
+      "PA": 7,
+      "PR": 11,
+      "FPTS": 19.8,
+      "BLK": 3,
+      "STL": 0,
+      "BS": 3,
+      "PF": 2,
+      "TO": 1,
+      "FTM": 3,
+      "FTA": 5,
+      "FG%": 66.7,
+      "3P%": 0.0,
+      "FT%": 60.0
+    },
+    {
+      "level_0": 4,
+      "index": 4,
+      "PLAYER": "Brittney Griner",
+      "SZN": "2025 REG",
       "DATE": "2025-06-10",
       "TEAM": "ATL",
       "HA": "vs",
@@ -312,8 +464,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 1,
-      "index": 1,
+      "level_0": 5,
+      "index": 5,
       "PLAYER": "Brittney Griner",
       "SZN": "2025 REG",
       "DATE": "2025-06-06",
@@ -350,8 +502,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 2,
-      "index": 2,
+      "level_0": 6,
+      "index": 6,
       "PLAYER": "Brittney Griner",
       "SZN": "2025 REG",
       "DATE": "2025-05-30",
@@ -388,8 +540,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 3,
-      "index": 3,
+      "level_0": 7,
+      "index": 7,
       "PLAYER": "Brittney Griner",
       "SZN": "2025 REG",
       "DATE": "2025-05-24",
@@ -426,8 +578,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 4,
-      "index": 4,
+      "level_0": 8,
+      "index": 8,
       "PLAYER": "Brittney Griner",
       "SZN": "2025 REG",
       "DATE": "2025-05-22",
@@ -464,8 +616,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 5,
-      "index": 5,
+      "level_0": 9,
+      "index": 9,
       "PLAYER": "Brittney Griner",
       "SZN": "2025 REG",
       "DATE": "2025-05-20",
@@ -502,8 +654,8 @@
       "FT%": 83.3
     },
     {
-      "level_0": 6,
-      "index": 6,
+      "level_0": 10,
+      "index": 10,
       "PLAYER": "Brittney Griner",
       "SZN": "2025 REG",
       "DATE": "2025-05-16",
@@ -540,8 +692,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 7,
-      "index": 7,
+      "level_0": 11,
+      "index": 11,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-19",
@@ -578,8 +730,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 8,
-      "index": 8,
+      "level_0": 12,
+      "index": 12,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-17",
@@ -616,8 +768,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 9,
-      "index": 9,
+      "level_0": 13,
+      "index": 13,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-15",
@@ -654,8 +806,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 10,
-      "index": 10,
+      "level_0": 14,
+      "index": 14,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-13",
@@ -692,8 +844,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 11,
-      "index": 11,
+      "level_0": 15,
+      "index": 15,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-07",
@@ -730,8 +882,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 12,
-      "index": 12,
+      "level_0": 16,
+      "index": 16,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-05",
@@ -768,8 +920,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 13,
-      "index": 13,
+      "level_0": 17,
+      "index": 17,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-03",
@@ -806,8 +958,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 14,
-      "index": 14,
+      "level_0": 18,
+      "index": 18,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-09-01",
@@ -844,8 +996,8 @@
       "FT%": 60.0
     },
     {
-      "level_0": 15,
-      "index": 15,
+      "level_0": 19,
+      "index": 19,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-08-28",
@@ -882,8 +1034,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 16,
-      "index": 16,
+      "level_0": 20,
+      "index": 20,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-08-26",
@@ -920,8 +1072,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 17,
-      "index": 17,
+      "level_0": 21,
+      "index": 21,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-08-23",
@@ -958,8 +1110,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 18,
-      "index": 18,
+      "level_0": 22,
+      "index": 22,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-08-21",
@@ -996,8 +1148,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 19,
-      "index": 19,
+      "level_0": 23,
+      "index": 23,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-08-18",
@@ -1034,8 +1186,8 @@
       "FT%": 57.1
     },
     {
-      "level_0": 20,
-      "index": 20,
+      "level_0": 24,
+      "index": 24,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-08-16",
@@ -1072,8 +1224,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 21,
-      "index": 21,
+      "level_0": 25,
+      "index": 25,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-08-15",
@@ -1110,8 +1262,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 22,
-      "index": 22,
+      "level_0": 26,
+      "index": 26,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-20",
@@ -1148,8 +1300,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 23,
-      "index": 23,
+      "level_0": 27,
+      "index": 27,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-16",
@@ -1186,8 +1338,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 24,
-      "index": 24,
+      "level_0": 28,
+      "index": 28,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-14",
@@ -1224,8 +1376,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 25,
-      "index": 25,
+      "level_0": 29,
+      "index": 29,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-12",
@@ -1262,8 +1414,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 26,
-      "index": 26,
+      "level_0": 30,
+      "index": 30,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-10",
@@ -1300,8 +1452,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 27,
-      "index": 27,
+      "level_0": 31,
+      "index": 31,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-07",
@@ -1338,8 +1490,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 28,
-      "index": 28,
+      "level_0": 32,
+      "index": 32,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-03",
@@ -1376,8 +1528,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 29,
-      "index": 29,
+      "level_0": 33,
+      "index": 33,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-07-01",
@@ -1414,8 +1566,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 30,
-      "index": 30,
+      "level_0": 34,
+      "index": 34,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-30",
@@ -1452,8 +1604,8 @@
       "FT%": 80.0
     },
     {
-      "level_0": 31,
-      "index": 31,
+      "level_0": 35,
+      "index": 35,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-28",
@@ -1490,8 +1642,8 @@
       "FT%": 40.0
     },
     {
-      "level_0": 32,
-      "index": 32,
+      "level_0": 36,
+      "index": 36,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-22",
@@ -1528,8 +1680,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 33,
-      "index": 33,
+      "level_0": 37,
+      "index": 37,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-18",
@@ -1566,8 +1718,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 34,
-      "index": 34,
+      "level_0": 38,
+      "index": 38,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-16",
@@ -1604,8 +1756,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 35,
-      "index": 35,
+      "level_0": 39,
+      "index": 39,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-13",
@@ -1642,8 +1794,8 @@
       "FT%": 71.4
     },
     {
-      "level_0": 36,
-      "index": 36,
+      "level_0": 40,
+      "index": 40,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-09",
@@ -1680,8 +1832,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 37,
-      "index": 37,
+      "level_0": 41,
+      "index": 41,
       "PLAYER": "Brittney Griner",
       "SZN": "2024 REG",
       "DATE": "2024-06-07",
@@ -1720,28 +1872,31 @@
   ],
   "pinnedTopRowData": [
     {
+      "FPTS": 22.0,
+      "PTS": 11.0,
+      "TO": 1.5,
       "REB": 5.5,
-      "PRA": 19.5,
-      "PR": 17.5,
-      "PTS": 12.5,
-      "FPTS": 23.55,
+      "PRA": 17.5,
+      "PR": 16.5,
       "PLAYER": "LINE"
     },
     {
       "PLAYER": "HIT RATE (%)",
-      "REB": 68,
-      "PRA": 65,
-      "PR": 68,
-      "PTS": 68,
-      "FPTS": 71
+      "FPTS": 64,
+      "PTS": 61,
+      "TO": 50,
+      "REB": 66,
+      "PRA": 71,
+      "PR": 73
     },
     {
       "PLAYER": "AVG",
-      "REB": 6.5,
-      "PRA": 25.1,
-      "PR": 23.1,
-      "PTS": 16.6,
-      "FPTS": 31.1
+      "FPTS": 30.0,
+      "PTS": 15.7,
+      "TO": 1.7,
+      "REB": 6.4,
+      "PRA": 23.9,
+      "PR": 22.1
     }
   ]
 }

@@ -20,6 +20,9 @@ class ChartResponse(BaseModel):
     explanation: str = Field(
         description='Explanation of the chart.',
     )
+    user_requirements: str = Field(
+        description='User requirements for the chart.',
+    )
 
 
 class AgentState(TypedDict):

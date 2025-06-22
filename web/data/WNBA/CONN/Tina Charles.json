@@ -278,6 +278,196 @@
       "index": 0,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
+      "DATE": "2025-06-20",
+      "TEAM": "CONN",
+      "HA": "vs",
+      "OPP": "DAL",
+      "RES": "L",
+      "TSC": 83,
+      "OSC": 86,
+      "DIFF": 3,
+      "OT": "",
+      "MIN": 29,
+      "PRA": 33,
+      "PTS": 26,
+      "FGM": 8,
+      "FGA": 17,
+      "3PM": 0,
+      "3PA": 2,
+      "AST": 1,
+      "REB": 6,
+      "RA": 7,
+      "PA": 27,
+      "PR": 32,
+      "FPTS": 36.7,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 2,
+      "TO": 1,
+      "FTM": 10,
+      "FTA": 11,
+      "FG%": 47.1,
+      "3P%": 0.0,
+      "FT%": 90.9
+    },
+    {
+      "level_0": 1,
+      "index": 1,
+      "PLAYER": "Tina Charles",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-18",
+      "TEAM": "CONN",
+      "HA": "vs",
+      "OPP": "PHX",
+      "RES": "L",
+      "TSC": 75,
+      "OSC": 83,
+      "DIFF": 8,
+      "OT": "",
+      "MIN": 15,
+      "PRA": 7,
+      "PTS": 2,
+      "FGM": 1,
+      "FGA": 5,
+      "3PM": 0,
+      "3PA": 1,
+      "AST": 1,
+      "REB": 4,
+      "RA": 5,
+      "PA": 3,
+      "PR": 6,
+      "FPTS": 4.3,
+      "BLK": 0,
+      "STL": 0,
+      "BS": 0,
+      "PF": 1,
+      "TO": 4,
+      "FTM": 0,
+      "FTA": 0,
+      "FG%": 20.0,
+      "3P%": 0.0,
+      "FT%": 0.0
+    },
+    {
+      "level_0": 2,
+      "index": 2,
+      "PLAYER": "Tina Charles",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-17",
+      "TEAM": "CONN",
+      "HA": "@",
+      "OPP": "IND",
+      "RES": "L",
+      "TSC": 71,
+      "OSC": 88,
+      "DIFF": 17,
+      "OT": "",
+      "MIN": 30,
+      "PRA": 27,
+      "PTS": 20,
+      "FGM": 6,
+      "FGA": 17,
+      "3PM": 0,
+      "3PA": 1,
+      "AST": 3,
+      "REB": 4,
+      "RA": 7,
+      "PA": 23,
+      "PR": 24,
+      "FPTS": 31.3,
+      "BLK": 1,
+      "STL": 0,
+      "BS": 1,
+      "PF": 2,
+      "TO": 1,
+      "FTM": 8,
+      "FTA": 8,
+      "FG%": 35.3,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 3,
+      "index": 3,
+      "PLAYER": "Tina Charles",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-15",
+      "TEAM": "CONN",
+      "HA": "vs",
+      "OPP": "CHI",
+      "RES": "L",
+      "TSC": 66,
+      "OSC": 78,
+      "DIFF": 12,
+      "OT": "",
+      "MIN": 36,
+      "PRA": 26,
+      "PTS": 19,
+      "FGM": 8,
+      "FGA": 20,
+      "3PM": 1,
+      "3PA": 2,
+      "AST": 1,
+      "REB": 6,
+      "RA": 7,
+      "PA": 20,
+      "PR": 25,
+      "FPTS": 29.7,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 4,
+      "TO": 1,
+      "FTM": 2,
+      "FTA": 2,
+      "FG%": 40.0,
+      "3P%": 50.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 4,
+      "index": 4,
+      "PLAYER": "Tina Charles",
+      "SZN": "2025 REG",
+      "DATE": "2025-06-08",
+      "TEAM": "CONN",
+      "HA": "@",
+      "OPP": "WSH",
+      "RES": "L",
+      "TSC": 67,
+      "OSC": 104,
+      "DIFF": 37,
+      "OT": "",
+      "MIN": 34,
+      "PRA": 27,
+      "PTS": 17,
+      "FGM": 7,
+      "FGA": 17,
+      "3PM": 0,
+      "3PA": 0,
+      "AST": 1,
+      "REB": 9,
+      "RA": 10,
+      "PA": 18,
+      "PR": 26,
+      "FPTS": 29.3,
+      "BLK": 0,
+      "STL": 1,
+      "BS": 1,
+      "PF": 3,
+      "TO": 3,
+      "FTM": 3,
+      "FTA": 3,
+      "FG%": 41.2,
+      "3P%": 0.0,
+      "FT%": 100.0
+    },
+    {
+      "level_0": 5,
+      "index": 5,
+      "PLAYER": "Tina Charles",
+      "SZN": "2025 REG",
       "DATE": "2025-06-06",
       "TEAM": "CONN",
       "HA": "vs",
@@ -312,8 +502,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 1,
-      "index": 1,
+      "level_0": 6,
+      "index": 6,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
       "DATE": "2025-06-01",
@@ -350,8 +540,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 2,
-      "index": 2,
+      "level_0": 7,
+      "index": 7,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
       "DATE": "2025-05-30",
@@ -388,8 +578,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 3,
-      "index": 3,
+      "level_0": 8,
+      "index": 8,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
       "DATE": "2025-05-27",
@@ -426,8 +616,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 4,
-      "index": 4,
+      "level_0": 9,
+      "index": 9,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
       "DATE": "2025-05-25",
@@ -464,8 +654,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 5,
-      "index": 5,
+      "level_0": 10,
+      "index": 10,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
       "DATE": "2025-05-23",
@@ -502,8 +692,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 6,
-      "index": 6,
+      "level_0": 11,
+      "index": 11,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
       "DATE": "2025-05-20",
@@ -540,8 +730,8 @@
       "FT%": 85.7
     },
     {
-      "level_0": 7,
-      "index": 7,
+      "level_0": 12,
+      "index": 12,
       "PLAYER": "Tina Charles",
       "SZN": "2025 REG",
       "DATE": "2025-05-18",
@@ -578,8 +768,8 @@
       "FT%": 77.8
     },
     {
-      "level_0": 8,
-      "index": 8,
+      "level_0": 13,
+      "index": 13,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-19",
@@ -616,8 +806,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 9,
-      "index": 9,
+      "level_0": 14,
+      "index": 14,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-17",
@@ -654,8 +844,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 10,
-      "index": 10,
+      "level_0": 15,
+      "index": 15,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-15",
@@ -692,8 +882,8 @@
       "FT%": 57.1
     },
     {
-      "level_0": 11,
-      "index": 11,
+      "level_0": 16,
+      "index": 16,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-13",
@@ -730,8 +920,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 12,
-      "index": 12,
+      "level_0": 17,
+      "index": 17,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-10",
@@ -768,8 +958,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 13,
-      "index": 13,
+      "level_0": 18,
+      "index": 18,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-08",
@@ -806,8 +996,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 14,
-      "index": 14,
+      "level_0": 19,
+      "index": 19,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-06",
@@ -844,8 +1034,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 15,
-      "index": 15,
+      "level_0": 20,
+      "index": 20,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-03",
@@ -882,8 +1072,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 16,
-      "index": 16,
+      "level_0": 21,
+      "index": 21,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-09-01",
@@ -920,8 +1110,8 @@
       "FT%": 33.3
     },
     {
-      "level_0": 17,
-      "index": 17,
+      "level_0": 22,
+      "index": 22,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-08-28",
@@ -958,8 +1148,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 18,
-      "index": 18,
+      "level_0": 23,
+      "index": 23,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-08-26",
@@ -996,8 +1186,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 19,
-      "index": 19,
+      "level_0": 24,
+      "index": 24,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-08-23",
@@ -1034,8 +1224,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 20,
-      "index": 20,
+      "level_0": 25,
+      "index": 25,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-08-21",
@@ -1072,8 +1262,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 21,
-      "index": 21,
+      "level_0": 26,
+      "index": 26,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-08-18",
@@ -1110,8 +1300,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 22,
-      "index": 22,
+      "level_0": 27,
+      "index": 27,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-08-16",
@@ -1148,8 +1338,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 23,
-      "index": 23,
+      "level_0": 28,
+      "index": 28,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-07-17",
@@ -1186,8 +1376,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 24,
-      "index": 24,
+      "level_0": 29,
+      "index": 29,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-07-14",
@@ -1224,8 +1414,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 25,
-      "index": 25,
+      "level_0": 30,
+      "index": 30,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-07-12",
@@ -1262,8 +1452,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 26,
-      "index": 26,
+      "level_0": 31,
+      "index": 31,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-07-10",
@@ -1300,8 +1490,8 @@
       "FT%": 33.3
     },
     {
-      "level_0": 27,
-      "index": 27,
+      "level_0": 32,
+      "index": 32,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-07-07",
@@ -1338,8 +1528,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 28,
-      "index": 28,
+      "level_0": 33,
+      "index": 33,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-07-05",
@@ -1376,8 +1566,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 29,
-      "index": 29,
+      "level_0": 34,
+      "index": 34,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-07-02",
@@ -1414,8 +1604,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 30,
-      "index": 30,
+      "level_0": 35,
+      "index": 35,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-30",
@@ -1452,8 +1642,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 31,
-      "index": 31,
+      "level_0": 36,
+      "index": 36,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-28",
@@ -1490,8 +1680,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 32,
-      "index": 32,
+      "level_0": 37,
+      "index": 37,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-23",
@@ -1528,8 +1718,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 33,
-      "index": 33,
+      "level_0": 38,
+      "index": 38,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-21",
@@ -1566,8 +1756,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 34,
-      "index": 34,
+      "level_0": 39,
+      "index": 39,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-19",
@@ -1604,8 +1794,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 35,
-      "index": 35,
+      "level_0": 40,
+      "index": 40,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-16",
@@ -1642,8 +1832,8 @@
       "FT%": 66.7
     },
     {
-      "level_0": 36,
-      "index": 36,
+      "level_0": 41,
+      "index": 41,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-13",
@@ -1680,8 +1870,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 37,
-      "index": 37,
+      "level_0": 42,
+      "index": 42,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-11",
@@ -1718,8 +1908,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 38,
-      "index": 38,
+      "level_0": 43,
+      "index": 43,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-08",
@@ -1756,8 +1946,8 @@
       "FT%": 90.0
     },
     {
-      "level_0": 39,
-      "index": 39,
+      "level_0": 44,
+      "index": 44,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-06",
@@ -1794,8 +1984,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 40,
-      "index": 40,
+      "level_0": 45,
+      "index": 45,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-06-02",
@@ -1832,8 +2022,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 41,
-      "index": 41,
+      "level_0": 46,
+      "index": 46,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-05-31",
@@ -1870,8 +2060,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 42,
-      "index": 42,
+      "level_0": 47,
+      "index": 47,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-05-29",
@@ -1908,8 +2098,8 @@
       "FT%": 75.0
     },
     {
-      "level_0": 43,
-      "index": 43,
+      "level_0": 48,
+      "index": 48,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-05-26",
@@ -1946,8 +2136,8 @@
       "FT%": 0.0
     },
     {
-      "level_0": 44,
-      "index": 44,
+      "level_0": 49,
+      "index": 49,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-05-21",
@@ -1984,8 +2174,8 @@
       "FT%": 50.0
     },
     {
-      "level_0": 45,
-      "index": 45,
+      "level_0": 50,
+      "index": 50,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-05-18",
@@ -2022,8 +2212,8 @@
       "FT%": 100.0
     },
     {
-      "level_0": 46,
-      "index": 46,
+      "level_0": 51,
+      "index": 51,
       "PLAYER": "Tina Charles",
       "SZN": "2024 REG",
       "DATE": "2024-05-15",
@@ -2062,28 +2252,28 @@
   ],
   "pinnedTopRowData": [
     {
+      "FPTS": 28.5,
+      "PTS": 16.5,
+      "PR": 22.5,
+      "PRA": 25.0,
       "REB": 6.0,
-      "PRA": 24.5,
-      "PR": 23.5,
-      "PTS": 17.5,
-      "FPTS": 27.55,
       "PLAYER": "LINE"
     },
     {
       "PLAYER": "HIT RATE (%)",
-      "REB": 68,
-      "PRA": 55,
-      "PR": 55,
-      "PTS": 36,
-      "FPTS": 61
+      "FPTS": 61,
+      "PTS": 44,
+      "PR": 63,
+      "PRA": 50,
+      "REB": 63
     },
     {
       "PLAYER": "AVG",
-      "REB": 8.8,
-      "PRA": 26.2,
-      "PR": 24.0,
-      "PTS": 15.2,
-      "FPTS": 31.4
+      "FPTS": 30.9,
+      "PTS": 15.3,
+      "PR": 23.8,
+      "PRA": 26.0,
+      "REB": 8.5
     }
   ]
 }
