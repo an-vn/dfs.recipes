@@ -2,8 +2,6 @@ export function spawnSandboxWorker(appCode) {
     appCode = `${appCode}
 onmessage = (e) => {
     try {
-        console.debug(e.data);
-        console.debug(createChartOptions(e.data));
         const options = JSON.stringify(createChartOptions(e.data));
         postMessage({ options: JSON.parse(options) });
     } catch (e) {

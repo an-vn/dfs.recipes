@@ -3,6 +3,7 @@ import ast
 from typing import Dict, List, Tuple, Optional
 import json
 
+
 class JavaScriptValidator:
     """Validates JavaScript code output from LLMs for security and correctness."""
 
@@ -199,24 +200,22 @@ class JavaScriptValidator:
 
         return sanitized
 
+    def validate_llm_javascript(self, code: str, strict: bool = True) -> Tuple[bool, Dict[str, any]]:
+        """
+        Main function to validate JavaScript code from LLM output.
 
-def validate_llm_javascript(code: str, strict: bool = True) -> Tuple[bool, Dict[str, any]]:
-    """
-    Main function to validate JavaScript code from LLM output.
+        Args:
+            code: JavaScript code string to validate
+            strict: If True, any security issue fails validation. If False, only critical issues fail.
 
-    Args:
-        code: JavaScript code string to validate
-        strict: If True, any security issue fails validation. If False, only critical issues fail.
+        Returns:
+            Tuple of (is_safe, validation_result)
+        """
+        result = self.validate_javascript(code)
 
-    Returns:
-        Tuple of (is_safe, validation_result)
-    """
-    validator = JavaScriptValidator()
-    result = validator.validate_javascript(code)
+        if strict:
+            is_safe = result['is_valid'] and len(result['warnings']) == 0
+        else:
+            is_safe = result['is_valid']
 
-    if strict:
-        is_safe = result['is_valid'] and len(result['warnings']) == 0
-    else:
-        is_safe = result['is_valid']
-
-    return is_safe, result
+        return is_safe, result
