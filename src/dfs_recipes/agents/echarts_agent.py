@@ -71,6 +71,7 @@ chain = prompt | llm.with_structured_output(schema=ChartResponse)
 
 async def invoke_chain(chart: ChartRequest, thread_id: str) -> ChartResponse:
     """ Invoke the chain with the provided message and thread ID. """
+    log.info(f'received chart request: {chart.message}')
     graph_config = data_utils.build_graph_config(thread_id)
     response = await chain.ainvoke(
         input={

@@ -20,6 +20,7 @@ class Settings(BaseSettings):
     gemini_model: str = Field(default='gemini-2.0-flash-001')
     session_encryption_key: str = Field(default='')
     session_cookie_key: str = Field(default='DFS_SESSION')
+    user_input_character_limit: int = Field(default=200)
 
     model_config = SettingsConfigDict(
         env_file=('.env', '.env.prod'),

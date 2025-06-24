@@ -9,8 +9,6 @@ export class Chart {
         this.eChartsInstance = null;
         this.initChartInstance();
         window.onresize = this.handleResize.bind(this);
-        // const resizeObserver = new ResizeObserver();
-
         this.loadingParams = {
             color: 'rgba(0, 0, 0, 0.5)',
             fontSize: 13,

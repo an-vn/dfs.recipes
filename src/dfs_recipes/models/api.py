@@ -1,19 +1,13 @@
-from datetime import datetime
-from typing import Optional, List, Sequence, Dict, Literal, Annotated, TypedDict
-from urllib.parse import quote_plus, unquote_plus
-from uuid import uuid4
-from cryptography.fernet import Fernet
-from langchain_core.messages import BaseMessage
-from langgraph.graph.message import add_messages
-from pydantic import BaseModel, Field, UUID4, field_validator, field_serializer, computed_field
+from pydantic import BaseModel, Field, field_validator, computed_field
 from dfs_recipes.utils import data_utils
+from dfs_recipes.config.settings import settings
 
 
 class MessageRequest(BaseModel):
     message: str = Field(
         description='User message to be processed by the model',
         pattern=r'^[A-Za-z0-9\s!?.\'",:-]+$',
-        max_length=500,
+        max_length=settings.user_input_character_limit,
     )
 
     @field_validator('message', mode='after')
